@@ -1,0 +1,19 @@
+{
+  "plugins": {
+    "metalsmith-markdown": {
+      "smartypants": true,
+      "gfm": true,
+      "tables": true
+    },
+
+    "metalsmith-templates": {
+      "engine": "handlebars",
+      "directory": "templates"
+    },
+
+    "metalsmith-permalinks": {
+      "pattern": ":date/:title",
+      "date": "YYYY/MM"
+    }
+  }
+}
