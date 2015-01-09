@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "metalsmith; cp CNAME build/",
     "deploy": "git subtree push --prefix build origin gh-pages"
   },
   "repository": {
