@@ -15,6 +15,12 @@ and also a more linux focused one
 <a href="http://www.linuxdevcenter.com/pub/a/linux/2002/01/31/make_intro.html?page=2">on linuxedevcenter.com</a>
 as given as reference
 in the article.</p>
+<h2 id="deploy-built-files-easier-via-gh-pages-branch-on-github">Deploy built files easier via gh-pages branch on github</h2>
+<p>I found it always painful to only update the gh-pages branch for
+deploying to a custom domain, an easy solution is pushing a
+subdirectory to gh-pages branch, like so</p>
+<pre><code>git subtree push --prefix docs origin gh-pages
+</code></pre><p>found at <a href="http://gsferreira.com/archive/2014/06/update-github-pages-using-a-project-subfolder/">gsferreira.com</a></p>
 
 </body>
 </html>
