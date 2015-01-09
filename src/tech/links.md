@@ -1,9 +1,9 @@
 ---
 permalink: false
-template: index.html
+template: links.html
 title: Links
 date: 2015-01-09
-description: 
+description:
 ---
 
 ## Purpose of .PHONY in a Makefile
