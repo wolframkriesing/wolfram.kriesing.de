@@ -1,7 +1,7 @@
 ---
 permalink: false
 template: links.html
-title: Links
+title: tech links
 date: 2015-01-09
 description:
 ---
