@@ -6,6 +6,12 @@ date: 2015-01-12
 description:
 ---
 
+## Default will be: to be in prison (in the USA) [2014-01-14]
+
+> The new laws make it a felony to intentionally access unauthorized information even if it's been posted to a public website. The new laws make it a felony to traffic in information like passwords, where "trafficking" includes posting a link.
+
+Read more on [Errata Security's "Obama's War on Hackers"](http://blog.erratasec.com/2015/01/obams-war-on-hackers.html#.VLZx4qcqmnQ)
+
 ## UK wants to prohibit end-to-end encryption? [2014-01-13]
 
 > The Prime Minister said today that he would stop the use of methods of communication that cannot be read by the security services even if they have a warrant.
