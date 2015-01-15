@@ -7,7 +7,8 @@ description: about tech and some non-tech
 ---
 
 [tech links](tech/links)  
-[non-tech links](non-tech/links)
+[non-tech links](non-tech/links)  
+[non-tech books](non-tech/books)
 
 ## external links
 
