@@ -6,6 +6,18 @@ date: 2015-01-12
 description:
 ---
 
+## Rechtsstaat, Folter, etc. [2014-01-15]
+
+Wenn [in der USA Folter mit Sondersituationen gerechtfertigt werden](http://www.progressive.org/news/2014/12/187936/war-how-cia-justifies-torture)
+wo bleibt da der Rechtsstaat?
+
+> Der Rechtsstaat wurde erfunden, damit es nie wieder Sondersituationen geben kann [...]
+> In dem Moment wo ein Staat eine Sondersituation erklärt räumt er quasi sein Scheitern ein [...]
+> Genau dann zeigt sich ja ob man mit seiner Moral, seiner Ethik tatsächlich so viel fortschrittlicher
+> ist.
+
+[ca. bei 13min](http://kenfm.de/blog/2014/12/17/cia-folterbericht/)
+
 ## Default will be: to be in prison (in the USA) [2014-01-14]
 
 > The new laws make it a felony to intentionally access unauthorized information even if it's been posted to a public website. The new laws make it a felony to traffic in information like passwords, where "trafficking" includes posting a link.
