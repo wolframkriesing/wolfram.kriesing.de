@@ -6,6 +6,29 @@ date: 2015-01-09
 description:
 ---
 
+## Infodeck
+
+Martin Fowler named interactive or more online consumable slides
+infodeck, [writes about it here](http://martinfowler.com/bliki/Infodeck.html)
+and 
+he [is building a frontend](https://github.com/martinfowler/mfweb)
+for it which you can feed via XML.
+
+* slides
+
+## Workflows of Refactoring
+
+Martin Fowler lists the kinds of refactoring, the reasons 
+why we refactor code, [in his infodeck](http://martinfowler.com/articles/workflowsOfRefactoring/#2hats).
+
+* refactoring
+
+## Some coding katas
+
+[found on stackoverflow](http://stackoverflow.com/questions/1432485/coding-katas-for-practicing-the-refactoring-of-legacy-code)
+
+* katas
+
 ## webdriver API [2014-01-19]
 
 [The webdriver API is here](http://selenium.googlecode.com/git/docs/api/javascript/class_webdriver_WebDriver.html)
