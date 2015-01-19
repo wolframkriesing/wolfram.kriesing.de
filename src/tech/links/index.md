@@ -6,6 +6,25 @@ date: 2015-01-09
 description:
 ---
 
+## Smallest test runner
+
+IDEs are awesome but sometimes in my way and setting up test runners
+sometimes defeats the purpose of being fast with tests, which also
+means having feedback constantly and continuously. Thanks to
+[@Christop](http://twitter.com/c089) for showing me the shortest
+test runner there is, it runs on the command line, like this:
+
+    while true; do npm test; sleep 3; done;
+
+it assumes of course, your tests can be run via `npm test`.
+
+## Speed up Mac OS X Yosemite
+
+I expected my new 15" Retina MacBook Pro to just blow my mind
+in terms of speed. But it didn't ... until now I am pretty
+disappointed. So I finally did [some cleanup this weekend
+that promises to speed up](https://discussions.apple.com/thread/6623697), I am hoping.
+
 ## Markdown syntax, the spec
 
 I never knew which is _the_ right markdown syntax, I took the five minutes to find out
