@@ -6,7 +6,157 @@ date: 2015-01-09
 description:
 ---
 
-## Smallest test runner
+## webdriver API [2014-01-19]
+
+[The webdriver API is here](http://selenium.googlecode.com/git/docs/api/javascript/class_webdriver_WebDriver.html)
+
+## Myth - the simpler CSS transformer? [2014-01-19]
+
+[Myth](http://www.myth.io/) - 
+a simpler alternative to all the CSS transformers out there?
+
+It currently has a simple set of features: variables, math, colors, 
+simpler media queries and some more. But it looks enough to me.
+And it is written in JavaScript, no more ruby gem jams.
+
+* css
+* preprocessor
+
+## Transducers(.js) [2014-01-19]
+
+> reducing function transformers are getting a name - 'transducers', and first-class support in Clojure core and core.async.
+
+Rich Hickey [invented it](http://blog.cognitect.com/blog/2014/8/6/transducers-are-coming)
+and they quickly [came to JavaScript, of course](http://jlongster.com/Transducers.js--A-JavaScript-Library-for-Transformation-of-Data).
+Dive right in [the code on github](https://github.com/cognitect-labs/transducers-js).
+
+* clojure
+* reducers
+* functional
+
+## Testing and refactoring legacy code [2014-01-19]
+
+Very useful and right-away applicable insights 
+into [refactoring legacy code](http://virtualjug.com/testing-and-refactoring-legacy-code/).
+Seems the [VJUG has lot's good content](http://virtualjug.com/all-posts/).
+
+* java
+* refactoring
+* legacy
+
+## The introduction to Reactive Programming you've been missing [2014-01-19]
+
+> The hardest part of the learning journey is thinking in Reactive. It's a lot about letting go of old imperative and stateful habits of typical programming, and forcing your brain to work in a different paradigm.  
+> [...]  
+> I think the world deserves a practical tutorial on how to think in Reactive, so that you can get started.
+
+Find [the Rx tutorial here](https://gist.github.com/staltz/868e7e9bc2a7b8c1f754),
+watch out it gets you hooked :)
+
+* reactive programming
+* rx
+* rxjs
+* javascript
+* functional
+
+## Angular reviews [2014-01-19]
+
+Lately they don't turn out so good, or is it my blurred vision?  
+One by James Shore [An Unconventional Review of AngularJS](http://www.letscodejavascript.com/v3/blog/2015/01/angular_review)
+and another by PPK [The problem with angular](http://www.quirksmode.org/blog/archives/2015/01/the_problem_wit.html).
+
+* javascript 
+* angularjs
+* frontend
+* framework
+
+## Paxos, algorithm to solve the consensus problem [2014-01-19]
+
+I came across paxos more often lately.
+The first time was at a meetup group "Papers we love" 
+there was a [meetup in December about paxos](http://www.meetup.com/Papers-We-Love-Munich/events/213339452/).
+
+> Paxos is an algorithm to solve the consensus problem.
+> Paxos is only a small piece of building a distributed database: it only implements the process to write exactly one new thing to the system.
+
+And [this is an explanation and demonstration](http://harry.me/blog/2014/12/27/neat-algorithms-paxos/)
+
+* algorithm
+* read later
+
+## One Hacker Way - Erik Meijer [2014-01-19]
+
+I really appreciate the things I learnt from Erik Meijer, but I am
+not so sure I can follow all his opinions he states
+[in this talk](http://vimeo.com/110554082).  
+But nevertheless it's very entertaining!
+
+> Writing tests is waste.  
+> TDD is for scared people, it's for pussies.
+
+Those statements are actually the funny parts of his talk, though
+I am not sure how funny they are meant :).
+
+* video
+* agile
+
+## World’s first (known) bootkit for OS X can permanently backdoor Macs [2014-01-19]
+
+My lack of knowledge and understanding and knowing it scares me most
+about [reading this article](http://arstechnica.com/security/2015/01/worlds-first-known-bootkit-for-os-x-can-permanently-backdoor-macs/),
+because once I read it I know there comes
+a slew of things I would have to learn too, but I just can't ignore it.
+Damn.
+
+* security
+* mac os
+
+## Sandi Metz - The Design of Tests [2014-01-19]
+
+Watch the author of [poodr](http://poodr.com) describing
+[how to solve the problem of mocks and real code running out of sync](https://www.youtube.com/watch?v=qT5iriwidRg)!
+(And lots of goodies about testing and stuff.)
+Watch it twice, it's worth it :)
+
+* video
+* testing
+* mocks
+* ~~watch later~~
+
+## Markdown used by metalsmith (this site here) [2014-01-19]
+
+As I just found in the docs metalsmith, which again uses
+[the package metalsmith-markdown](https://github.com/segmentio/metalsmith-markdown)
+which in again uses
+[the package marked](https://github.com/chjj/marked)
+describes [in the readme](https://github.com/chjj/marked#philosophy-behind-marked)
+that is also supports
+[github falvored markdown](https://help.github.com/articles/github-flavored-markdown/).
+(I was actually just looking for how to strikeout things :)).
+
+* markdown
+
+## Mocks Aren't Stubs [2014-01-19]
+
+> The term 'Mock Objects' has become a popular one to describe special case objects that mimic real objects for testing.
+
+Read [the article from 2007](http://martinfowler.com/articles/mocksArentStubs.html)!!!
+
+* mock
+* stub
+* testing
+* read later
+
+## Servo: Building a Parallel Browser [2014-01-18]
+
+Servo is an experimental browser engine for modern multi-core hardware written in an experimental memory safe language called Rust.
+[Maybe the future Firefox engine?](https://www.youtube.com/watch?v=7q9vIMXSTzc)
+
+* firefox
+* browser engine
+* rust
+
+## Smallest test runner [2014-01-18]
 
 IDEs are awesome but sometimes in my way and setting up test runners
 sometimes defeats the purpose of being fast with tests, which also
@@ -18,14 +168,20 @@ test runner there is, it runs on the command line, like this:
 
 it assumes of course, your tests can be run via `npm test`.
 
-## Speed up Mac OS X Yosemite
+* tdd
+* testing
+
+## Speed up Mac OS X Yosemite [2014-01-17]
 
 I expected my new 15" Retina MacBook Pro to just blow my mind
 in terms of speed. But it didn't ... until now I am pretty
 disappointed. So I finally did [some cleanup this weekend
 that promises to speed up](https://discussions.apple.com/thread/6623697), I am hoping.
 
-## Markdown syntax, the spec
+* macos
+* speed
+
+## Markdown syntax, the spec [2014-01-15]
 
 I never knew which is _the_ right markdown syntax, I took the five minutes to find out
 now I know, it [seems to be this one here](http://daringfireball.net/projects/markdown/syntax).
@@ -34,7 +190,9 @@ At least following the link chain that lead me from
 which I [use here to create this site](https://github.com/wolframkriesing/wolfram.kriesing.de/blob/7bd5d8af1b4e3652290900b1eeb4c5dada7a6bfc/package.json#L23-L24)
 to the markdown syntax.
 
-## Deploy built files easier via gh-pages branch on github
+* markdown
+
+## Deploy built files easier via gh-pages branch on github [2014-01-10]
 
 I found it always painful to only update the gh-pages branch for
 deploying to a custom domain, an easy solution is pushing a
@@ -44,7 +202,10 @@ subdirectory to gh-pages branch, like so
 
 found at [gsferreira.com](http://gsferreira.com/archive/2014/06/update-github-pages-using-a-project-subfolder/)
 
-## Purpose of .PHONY in a Makefile
+* git
+* github
+
+## Purpose of .PHONY in a Makefile [2014-01-10]
 
 The [answer on stackoverflow](http://stackoverflow.com/questions/2145590/what-is-the-purpose-of-phony-in-a-makefile)
 and also a more linux focused one
@@ -52,3 +213,4 @@ and also a more linux focused one
 as given as reference
 in the article.
 
+* makefile

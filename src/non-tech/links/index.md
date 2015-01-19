@@ -6,6 +6,13 @@ date: 2015-01-12
 description:
 ---
 
+## Larry Page thought paid ads are a bad idea [2014-01-19]
+
+If I remember right [I heard here (german)](http://www.ardmediathek.de/tv/Reportage-Dokumentation/Die-Story-im-Ersten-Die-geheime-Macht-v/Das-Erste/Video?documentId=25070276&bcastId=799280) that 
+Larry Page himself wrote in [his thesis](http://infolab.stanford.edu/~backrub/google.html) 
+that payed search results are a bad idea. Well, he was young back than.  
+I just didn't take the time to read it thoroughly and find the spot where he states it exactly.
+
 ## Why some go and some don't - to Davos [2014-01-19]
 
 Read it in the NYT article [Notable in Their Absence From Davos](http://dealbook.nytimes.com/2014/01/20/notable-in-their-absence-from-davos/).
