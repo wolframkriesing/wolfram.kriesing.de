@@ -6,6 +6,10 @@ date: 2015-01-12
 description:
 ---
 
+## Why some go and some don't - to Davos [2014-01-19]
+
+Read it in the NYT article [Notable in Their Absence From Davos](http://dealbook.nytimes.com/2014/01/20/notable-in-their-absence-from-davos/).
+
 ## Rechtsstaat, Folter, etc. [2014-01-15]
 
 Wenn [in der USA Folter mit Sondersituationen gerechtfertigt werden](http://www.progressive.org/news/2014/12/187936/war-how-cia-justifies-torture)
