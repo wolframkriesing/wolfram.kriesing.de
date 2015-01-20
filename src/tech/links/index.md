@@ -6,7 +6,47 @@ date: 2015-01-09
 description:
 ---
 
-## Infodeck
+## Feature Injection: three steps to success [2014-01-20]
+
+> Feature Injection is a business analysis process framework that allows teams to exploit the value of the traditional business analysis techniques in projects involving frequent iterative deliveries, such as the ones implemented using agile and lean processes.
+
+http://www.infoq.com/articles/feature-injection-success
+
+* read later
+
+## CSON (JSON with CoffeeScript falvor) [2014-01-20]
+
+> CoffeeScript-Object-Notation Parser. Same as JSON but for CoffeeScript objects.
+
+https://www.npmjs.com/package/cson
+
+* npm
+* coffeescript
+
+## A meta project [2014-01-20]
+
+In order to keep all your meta data of your project in one place
+and only create files that actually just copy those data
+you can use [projectz](https://github.com/bevry/projectz)
+where you maintain data like title, description, author(s), badges, ...
+in one CSON file and with a special markup you can update
+fill in the templates files like README, package.json, ...
+
+* npm 
+* nodejs
+* javascript
+
+## Complexity is outside the code [2014-01-20]
+
+> Dan North and Jessica Kerr make a journey through complexity. At the other side we may find simplicity, or we may find the light at the end of the tunnel is just another oncoming ESB.
+
+http://www.infoq.com/presentations/complexity-simplicity-esb
+
+* complexity
+* code
+* watch later
+
+## Infodeck [2014-01-20]
 
 Martin Fowler named interactive or more online consumable slides
 infodeck, [writes about it here](http://martinfowler.com/bliki/Infodeck.html)
@@ -16,14 +56,14 @@ for it which you can feed via XML.
 
 * slides
 
-## Workflows of Refactoring
+## Workflows of Refactoring [2014-01-20]
 
 Martin Fowler lists the kinds of refactoring, the reasons 
 why we refactor code, [in his infodeck](http://martinfowler.com/articles/workflowsOfRefactoring/#2hats).
 
 * refactoring
 
-## Some coding katas
+## Some coding katas [2014-01-20]
 
 [found on stackoverflow](http://stackoverflow.com/questions/1432485/coding-katas-for-practicing-the-refactoring-of-legacy-code)
 
@@ -128,7 +168,7 @@ I am not sure how funny they are meant :).
 My lack of knowledge and understanding and knowing it scares me most
 about [reading this article](http://arstechnica.com/security/2015/01/worlds-first-known-bootkit-for-os-x-can-permanently-backdoor-macs/),
 because once I read it I know there comes
-a slew of things I would have to learn too, but I just can't ignore it.
+a slew of things I would have to learn too, but I still try hard ignoring it :).
 Damn.
 
 * security
