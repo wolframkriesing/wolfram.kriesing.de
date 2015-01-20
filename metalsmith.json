@@ -18,6 +18,10 @@
     
     "metalsmith-headings-identifier": {
       "linkTemplate": "<a href='#%s'><span>¶</span></a> "
+    },
+    
+    "metalsmith-html-minifier": {
+      
     }
   }
 }
