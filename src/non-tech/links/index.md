@@ -6,6 +6,13 @@ date: 2015-01-12
 description:
 ---
 
+## Jo
+
+> Während des Urknalls geschah der Zeit etwas besonderes, 
+> sie begann.
+
+- Albert Einstein
+
 ## Larry Page thought paid ads are a bad idea [2014-01-19]
 
 If I remember right [I heard here (german)](http://www.ardmediathek.de/tv/Reportage-Dokumentation/Die-Story-im-Ersten-Die-geheime-Macht-v/Das-Erste/Video?documentId=25070276&bcastId=799280) that 
