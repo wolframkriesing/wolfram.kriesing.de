@@ -1,0 +1,22 @@
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+
+h1 a {
+  display: none;
+}
+
+h2 span,
+h3 span {
+  color: lightgray;
+}
+
+h2 a,
+h3 a {
+  text-decoration: none;
+}
+
+h2:hover span,
+h3:hover span {
+  color: black;
+}
