@@ -6,6 +6,106 @@ date: 2015-01-09
 description:
 ---
 
+## Trash Your Servers and Burn Your Code: Immutable Infrastructure and Disposable Components
+
+[a talk by Chad Fowler][7]
+
+> Software gets too complex, tests slow, test coverage doesn't make you feel good, so you deploy less.
+> The less often you deploy the scarrier it becomes.
+
+I was just about to quote him on 
+
+> comments are a code smell, there is just no way to validate them
+
+which I strongly agree on. And just one sentence later he says this
+
+> Tests are also a design smell. If you find yourself more time in your tests,
+> and I don't mean in the design of your system.
+
+which I just can't follow along. Because I think the test as your first user of the
+code is doing exactly that for you "driving your design". Especially when your code is so
+small and modular that you think you are doing great design that's when a test
+is so easy to write and a simple way to also verify the code later (as opposed to comments)
+which is the value the tests add. They serve as the docs for what your tiny-modules-composition
+does, they allow others to go in change requirements and learn where they have to be implemented.
+And so on. Don't they? Maybe I will get to that stage of understanding it at some point.
+
+And Chad saying 
+
+> My intention is to write code that can't possibly break.
+
+I admire him! I think I still have lot's to learn.
+
+> TDD is a great way to do design, but it is not a great way to prevent bugs
+
+I think we agree basically :)  
+[Watch his talk][7], it is really very good and contains enough brain food!
+
+* video
+* testing
+
+[7]: https://www.youtube.com/watch?v=DVSNsAei0VE
+
+## Beyond SOLID: The Dependency Elimination Principle [2014-01-23]
+
+> simple pointers to create a clean, intelligible codebase that won't use a lot of dependencies
+> - Kill Primitive Obsession
+> - Name things as Nouns (and not using verb nouns that have an ‘er’ ending)
+> - Remove duplication
+
+First I read his article ["Why I Don't Teach SOLID"][4] where I didn't get his point,
+but [the article where the quote above is from][5] does make lot's of sense.
+Event though I after having read [poodr][6] I can't agree that inheritance will become
+unused.
+
+[4]: http://qualityisspeed.blogspot.de/2014/08/why-i-dont-teach-solid.html
+[5]: http://qualityisspeed.blogspot.de/2014/09/beyond-solid-dependency-elimination.html
+[6]: http://www.poodr.com/
+
+* solid
+* clean code
+* dependencies
+* ~~read later~~
+
+## riot.js, a react-like lib [2014-01-22]
+
+I read it first in my personal trending twitter search, then I saw it on [hacker news][1] 
+and I pulled [the repo][2] and being intrigued by the minimal size, compared to react and polymer
+I thought I try out the demo, didn't work. So I looked a the code, very opinionated.
+My conclusion after having spent about just 1h on it I sumed up in [this tweet][3].
+
+[1]: https://news.ycombinator.com/item?id=8928433
+[2]: https://github.com/muut/riotjs
+[3]: https://twitter.com/wolframkriesing/status/558248934985195520
+
+* reactjs
+* dom
+* javascript
+* framework
+
+## Refactor to functional [2014-01-22]
+
+> This article helps procedural or object oriented programmers refactor the way they think to a more functional approach using practical examples in JavaScript.
+
+from Sep 2013
+https://github.com/perryharlock/refactor-to-functional
+
+* read later
+* functional
+* javascript
+* refactoring
+
+## Getting to know metalsmith [2014-01-21]
+
+[I have to read this](http://www.robinthrift.com/posts/getting-to-know-metalsmith/), 
+I just want to parse the data a bit
+and I fail. I smell that I don't get the concept fully yet,
+or that I am using it in a different way than it's meant.
+
+* metalsmit
+* blog
+* read later
+
 ## Feature Injection: three steps to success [2014-01-20]
 
 > Feature Injection is a business analysis process framework that allows teams to exploit the value of the traditional business analysis techniques in projects involving frequent iterative deliveries, such as the ones implemented using agile and lean processes.
@@ -14,7 +114,7 @@ http://www.infoq.com/articles/feature-injection-success
 
 * read later
 
-## CSON (JSON with CoffeeScript falvor) [2014-01-20]
+## CSON (JSON with CoffeeScript flavor) [2014-01-20]
 
 > CoffeeScript-Object-Notation Parser. Same as JSON but for CoffeeScript objects.
 
@@ -194,7 +294,7 @@ which in again uses
 [the package marked](https://github.com/chjj/marked)
 describes [in the readme](https://github.com/chjj/marked#philosophy-behind-marked)
 that is also supports
-[github falvored markdown](https://help.github.com/articles/github-flavored-markdown/).
+[github flavored markdown](https://help.github.com/articles/github-flavored-markdown/).
 (I was actually just looking for how to strikeout things :)).
 
 * markdown
