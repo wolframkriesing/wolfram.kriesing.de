@@ -1,9 +1,15 @@
 body {
   font-family: 'Helvetica Neue', Arial, sans-serif;
+  margin: 2em;
 }
 
 h1 a {
   display: none;
+}
+
+h2 {
+  margin-top: 2em;
+  margin-left: -1em;
 }
 
 h2 span,
@@ -19,4 +25,24 @@ h3 a {
 h2:hover span,
 h3:hover span {
   color: black;
+}
+
+blockquote {
+  font-style: italic;
+  background-color: #EEE;
+  padding: 0.5em;
+  margin-left: 1em;
+}
+blockquote * {
+  margin: 0;
+}
+
+body > ul {
+  padding: 0;
+  color: #BBC;
+}
+body > ul > li {
+  display: inline;
+  margin-right: 1em;
+  font-size: small;
 }
