@@ -6,6 +6,10 @@ date: 2015-01-12
 description:
 ---
 
+## Blindgänger - Ein Film über Abschiebung, ungerecht aber rechtmässig?
+
+Ein sehr beeindruckender Film, sehr berührend
+
 ## Jo
 
 > Während des Urknalls geschah der Zeit etwas besonderes, 
