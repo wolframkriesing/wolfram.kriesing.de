@@ -6,6 +6,41 @@ date: 2015-01-09
 description:
 ---
 
+## Just looks like OOP ...
+
+Linked in the [comments of this][8] I found [another great article][9], which 
+I just have to quote.
+
+> Unlike other disciplines, software development shows little interest for classics. Most people are more attracted by recent works. Who cares about some 20 years old paper when you can play with Node.js?
+
+io.js! LOL
+
+> a vision of objects like little virtual machines, offering specialized services. Objects were meant to be smart. Hide data, expose behavior. It's more than that: Alan is very explicit about the idea of methods as goals, something you want to happen, unconcerned about how it is going to happen.
+
+__expose behavior__
+
+> It is unfortunate that much of what is called “object-oriented programming” today is simply old style programming with fancier constructs
+
+Is he talking about me? I am trying hard!!!
+
+> Software development is about discovering and encoding knowledge. Now, humans have relatively few ways to encode knowledge: a fundamental strategy is to name things and concepts.
+
+Good wrap-up of why naming is hard.
+
+> If you can't find a proper name for the class, try naming functions. Look at those functions. What is keeping them together? You can apply them to... that's the class name :-)
+
+I have to remember that. Maybe a that could be a good session for a [JSCodeRetreat][jscr], finding
+class names.
+
+[9]: http://www.carlopescio.com/2011/04/your-coding-conventions-are-hurting-you.html
+[jscr]: http://jscoderetreat.com
+
+* oop
+* naming
+* class name
+* software design
+* jscr
+
 ## "Don't make objects that end with 'er'" [2014-02-04]
 
 I was about to write a "Handler" class. But I remembered that the "er" classes
@@ -36,6 +71,9 @@ katas have a value.
 Just [read the article][8], it's quite short and compact but has some nice examples in it.
 
 [8]: http://objology.blogspot.de/2011/09/one-of-best-bits-of-programming-advice.html
+
+* oop
+* software design
 
 ## Trash Your Servers and Burn Your Code: Immutable Infrastructure and Disposable Components
 
