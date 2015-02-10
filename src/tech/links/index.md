@@ -6,6 +6,13 @@ date: 2015-01-09
 description:
 ---
 
+## Shell in JavaScript [2014-02-10]
+
+I don't know why [shelljs] hasn't found me earlier :(  
+This is bash the way I would feel comfortable with it, JavaScript style.
+
+[shelljs]: https://github.com/arturadib/shelljs
+
 ## Refactoring Rule of Three
 
 [is a post][18] by [Adrian Bolboaca][@adibolb]
