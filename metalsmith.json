@@ -17,7 +17,7 @@
     },
     
     "metalsmith-headings-identifier": {
-      "linkTemplate": "<a href='#%s'><span>¶</span></a> "
+      "linkTemplate": "<a href='#%s' class='linkable'><span>¶</span></a> "
     },
     
     "metalsmith-html-minifier": {
