@@ -6,10 +6,62 @@ date: 2015-01-09
 description:
 ---
 
+## Programming, Programmers and our craft
+
+This is a [very nice interview (video)][18] with JB Rainsberger and 
+Corey Haines, two of the people I closely follow and try to learn from
+as much as I can.  
+They are talking about the passion of being a programmer, how to become one
+and how they think that a programmer can become better. They share
+a lot of personal experience. Well worth your time.
+
+[18]: http://vimeo.com/13914482
+
+* programmer
+* craft
+* video
+* ~~watch later~~
+
+## Cookie libs for (node)js
+
+If you want to dive into cookies, here is the [RFC6265].
+I was looking around for some decent cookie libraries. There seem to be some
+of them. And it is very irritating that some are as young as from last year.
+I thought this topic is old enough so that there is one standard solution
+and done. But I seem to be wrong. 
+What all of them have in common is their quality of testing is quite interesting.
+From nothing at all to hard core integration tests. Lot's of potential for 
+refactoring projects.
+
+https://github.com/jshttp/cookie  
+The simplest cookie lib ever, I guess. Also great for understanding cookies well,
+if it is complete - I don't know.
+> cookie is a basic cookie parser and serializer. It doesn't make assumptions about how you are going to deal with your cookies. It basically just provides a way to read and write the HTTP cookie headers.
+
+https://github.com/Ajnasz/ajncookie  
+Basically the same feature set as the one above, though I really like
+the API, it's so close to the request/response.
+> A very simple cookie manager
+
+https://github.com/pillarjs/cookies  
+Seems to be pretty complex. Uses Keygrip underneath, so the actual lib is quite small. 
+> Cookies is a node.js module for getting and setting HTTP(S) cookies. Cookies can be signed to prevent tampering, using Keygrip. It can be used with the built-in node.js HTTP library, or as Connect/Express middleware.
+
+https://github.com/goinstant/tough-cookie  
+The biggest one, that even implements cookieJar (a way to bundle and kinda anonymize/hide cookies). 
+> RFC6265 Cookies and CookieJar for Node.js
+
+
+[RFC6265]: http://tools.ietf.org/html/rfc6265
+
 ## Shell in JavaScript [2014-02-10]
 
 I don't know why [shelljs] hasn't found me earlier :(  
-This is bash the way I would feel comfortable with it, JavaScript style.
+This is bash the way I would feel comfortable with it, JavaScript style.  
+[Update 2014-02-11] well it's not really all bash can do, it just imitates the interface
+using JS as the language. I was looking for the REPL. Well start `> node` and 
+there is the REPL :). So I played with it. Not as powerful and far from a 
+replacement for bash but it spins quite some ideas.
 
 [shelljs]: https://github.com/arturadib/shelljs
 
