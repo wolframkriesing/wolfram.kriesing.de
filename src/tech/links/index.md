@@ -6,6 +6,44 @@ date: 2015-01-09
 description:
 ---
 
+## Deploying gh-pages after successful test run on travis
+
+-tweet, help from stephan
+- article read with bugs
+- travis-encrypt 
+
+
+## Problem including mocha into a browserify build [2014-02-19]
+
+I don't get mocha to be build with browserify, I always get
+
+```
+Error: Cannot find module '../suite' from '/Users/me/tddbin-frontend/node_modules/mocha'
+```
+
+The problems mentioned in [those][22] [issues][23] seem to have no solution provided yet.
+It seems that browserify picks up a built `mocha.js` and can't handle some magic done in there.  
+My solution for now is to use [mocha from the CDN][24], which might not work in all use cases, but does for me now.
+
+[22]: https://github.com/mochajs/mocha/issues/1316
+[23]: https://github.com/mochajs/mocha/issues/880
+[24]: http://cdnjs.com/libraries/mocha
+
+## Refactoring knowledge [2014-02-18]
+
+A Coding Dojo with [@XaV1uzz] doing [the Kata Mars Rover][20]
+and another one where he shows [how to refactor the bowling kata to patterns][21].
+They are both in spanish!
+
+[20]: https://www.youtube.com/watch?v=saNHzjHwbsc
+[21]: http://www.decharlas.uji.es/es/refactorizando-a-patrones-kata-bowling
+[@XaV1uzz]: http://twitter.com/XaV1uzz
+
+* kata
+* spanish
+* watch later
+* video
+
 ## Keep a github fork in sync [2014-02-17]
 
 As often as I look for this, I need to write it down.
