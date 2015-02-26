@@ -6,6 +6,12 @@ date: 2015-01-12
 description:
 ---
 
+## CodeCombat
+
+[Spielerisch Programmieren lernen][1]. Wow!!!
+
+[1]: http://codecombat.com/
+
 ## Blindgänger - Ein Film über Abschiebung, ungerecht aber rechtmässig?
 
 Ein sehr beeindruckender Film, sehr berührend
