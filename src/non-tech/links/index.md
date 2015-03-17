@@ -6,11 +6,63 @@ date: 2015-01-12
 description:
 ---
 
+## Ex Machina
+
+https://www.youtube.com/watch?v=EoQuVnKhxaM
+
+* movie
+* watch later
+
+## Washington You're Fired [2014-03-17]
+
+Thanks to [@trutherbot] I stumbled over this movie, it is diving into some of the
+govermental decisions of the last decades in the US.
+
+> One of the best movies covering the Patriot Act 1 and 2.
+
+[Executive Order 11000][3] "allows the government to mobilize civilians into work brigades 
+under government supervision" [stated in the video][4].
+
+US citizens: [Your constitution says all your rights are "unalienable"][5]. 
+
+[You might be detained if you are a "potential terrorist"
+oha, who knows that I am not?][6]
+
+Good point: Sorry US citizens, [now you have to rely on the good mood of your president.][7]
+Because he has all the power to send troops into your area, detain you without charge ...
+history is calling ...
+
+[What does privacy actually mean?][8]
+
+[@trutherbot]: https://twitter.com/trutherbot
+[3]: http://www.disastercenter.com/laworder/11000.htm
+[4]: https://www.youtube.com/watch?v=3Ow5e15_RGc&t=1216
+[5]: https://www.youtube.com/watch?v=3Ow5e15_RGc&t=1287
+[6]: https://www.youtube.com/watch?v=3Ow5e15_RGc&t=1504
+[7]: https://www.youtube.com/watch?v=3Ow5e15_RGc&t=1742
+[8]: https://www.youtube.com/watch?v=3Ow5e15_RGc&t=3163
+
+* politics
+* patriot act
+* USA
+
+## Wir können was tun!
+
+Jeder halt dort wo er kann, so [wie dieser Laden in Hamburg, der keine BILD mehr verkauft][2]. Ja warum wohl ...
+
+[2]: http://urbanshit.de/bild-boykott-hamburg/
+
+* politics
+* german
+
 ## CodeCombat
 
 [Spielerisch Programmieren lernen][1]. Wow!!!
 
 [1]: http://codecombat.com/
+
+* for kids
+* learn
 
 ## Blindgänger - Ein Film über Abschiebung, ungerecht aber rechtmässig?
 
