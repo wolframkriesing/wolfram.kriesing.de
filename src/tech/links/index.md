@@ -6,16 +6,61 @@ date: 2015-01-09
 description:
 ---
 
+## You had one job [2014-03-17]
+
+I think [this][30] is a collection of funny accidents that I have to remember, might come in 
+handy for a next slide set.
+
+[30]: https://twitter.com/_youhadonejob
+
+* fun
+
+## Make your site a bit safer
+
+Any browser project should [have a look at DOMPurify][29] at least, if not apply it right away.
+This might not be what you want to apply right away, but maybe it triggers you to learn
+more about this field, when security issues hit you it might be too late.
+
+> DOMPurify is a DOM-only, super-fast, uber-tolerant XSS sanitizer for HTML, MathML and SVG.  
+> DOMPurify is written by security people who have vast background in web attacks and XSS.
+
+[29]: https://github.com/cure53/DOMPurify
+
+* security
+* browser
+* javascript
+* client-side
+
+## Brand assets - the logo (sets) of a company or service
+
+For [TDDBin] I was just looking for all the icons to use on the website, icons from 
+github, trello and twitter to embed them. And I found out that the collection of those
+images/graphics are called __brand assets__. Next time you search for them, don't use the term logo, 
+use "brand assets".
+
+* icons
+* logos
+* graphics
+* design
+* brand
+
+[TDDBin]: http://tddbin.com
+
 ## Driven to Tests by Kevlin Henney
 
 This is a great talk by [@KevlinHenney] 
 
 > When people write tests, they write less code.  
 
+Take a step back and try to look at the code from your colleagues perspective [27]:
 > If I think it's difficult to use, what do the others think?
+
+He says about the question if tests slow you down [28]:
+> Yes, tests are your breaks. They will allow you to go faster, for the very reason they slow you down.
 
 [@KevlinHenney]: https://twitter.com/KevlinHenney
 [27]: https://www.youtube.com/watch?v=jGuKz7bNZRU#t=1440
+[28]: https://www.youtube.com/watch?v=jGuKz7bNZRU#t=5581
 
 * video
 * testing
