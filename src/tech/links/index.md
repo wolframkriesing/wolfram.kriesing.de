@@ -6,7 +6,7 @@ date: 2015-01-09
 description:
 ---
 
-## How to Use npm as a Build Tool
+## How to Use npm as a Build Tool [2014-03-20]
 
 I am sure my partner [@Tobias] posted this link in our internal [flowdock][38] (never used it? do it now! it's Slack in better).
 [@Tobias] knows all the tools.  
@@ -39,7 +39,7 @@ Version bumping is baked into NPM.
 * tool
 * nodejs
 
-## Fish shell
+## Fish shell [2014-03-20]
 
 [Another tool I have to look at!?][36] Just found via [this article][37].
 
@@ -51,7 +51,7 @@ Version bumping is baked into NPM.
 * OS
 * tool
 
-## Microkanrens
+## Microkanrens [2014-03-20]
 
 I first heard [@bodil] talk at the 2014 craftconf in Budapest where I saw her presentation 
 where she was live coding in at least 10 languages on stage. Of course I started following
