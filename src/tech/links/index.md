@@ -35,6 +35,10 @@ Version bumping is baked into NPM.
 [uxebu]: http://uxebu.com
 [39]: http://blog.keithcirkel.co.uk/how-to-use-npm-as-a-build-tool/
 
+* npm
+* tool
+* nodejs
+
 ## Fish shell
 
 [Another tool I have to look at!?][36] Just found via [this article][37].
