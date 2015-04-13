@@ -6,6 +6,20 @@ date: 2015-01-09
 description:
 ---
 
+## reapp.io
+
+The new [dojo][49]? I started with dojo about 10 years ago, or so.
+Now I see [reapp][48] which seems to be the same as dojo, lots of widgets,
+just around react and transfered 10 years ahead and to mobile.  
+Good stuff? Or not?
+
+[48]: http://reapp.io/
+[49]: http://dojotoolkit.org/
+
+* dojo
+* javascript framework
+* UI widgets
+
 ## Typeslab
 
 With [typeslab.com][47] you can write poster like text.  
