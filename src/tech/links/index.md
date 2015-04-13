@@ -6,6 +6,20 @@ date: 2015-01-09
 description:
 ---
 
+## Decoupling explained from a different angle
+
+[@KevlinHenney] is always worth watching, so there is [Functional Programming You Already Know][43] by him.
+I would like to extract this one piece where [he explains decoupling][44] in a, ask I think, great way.
+He says:
+
+> Let me translate "does not care" into computer science language. "Does not care" means decoupling.
+
+[43]: https://www.youtube.com/watch?v=lNKXTlCOGEc
+[44]: https://www.youtube.com/watch?v=lNKXTlCOGEc&feature=youtu.be&t=1485
+
+* functional
+* programming
+
 ## Globally installed npm packages = evil
 
 Nothing to add to [this post][42]
