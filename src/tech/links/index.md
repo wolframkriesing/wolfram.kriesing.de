@@ -6,6 +6,24 @@ date: 2015-01-09
 description:
 ---
 
+## Pharo - object-oriented programming language and a powerful environment
+
+> Pharo is a pure object-oriented programming language and a powerful environment, focused on simplicity and immediate feedback (think IDE and OS rolled into one).
+
+In the discussion about refactoring etc. at the [Agile Tuesday][52] someone mentioned 
+[Pharo][50] which is supposed to be quite advanced in all things, just as the quote above 
+mentions. Just watching the first 10min of [this video][51] was enough to be convinced that this
+looks really interesting, I am adding it to my "must look at" list :).
+
+[50]: http://pharo.org/
+[51]: https://www.youtube.com/watch?v=Nmcou_5um2s
+[52]: http://agiletuesday.org
+
+* programming language
+* ide
+* refactoring
+* must look at
+
 ## reapp.io
 
 The new [dojo][49]? I started with dojo about 10 years ago, or so.
