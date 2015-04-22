@@ -6,6 +6,15 @@ date: 2015-01-12
 description:
 ---
 
+## Idiocracy
+
+https://www.youtube.com/watch?v=clYwX8Z43zg
+
+About the society in 500 years "so incredibly dumbed down".
+
+* movie
+* watch later
+
 ## The Prototype
 
 https://www.youtube.com/watch?v=j1p0_R8ZLB0
