@@ -6,6 +6,46 @@ date: 2015-01-09
 description:
 ---
 
+## OO (with Message passing) - explained by Sandi Metz
+
+I have been titled as a [Sandi Metz] fanboy, I am :).
+I use "send to" and "plays the role" since I read her book [poodr].
+
+If you are looking for actionable hints about how to do OO right, remember those four:
+
+> Isolate the thing that varies  
+> Name the concept  
+> Define the role  
+> Inject the players  
+
+more info you find in [her railsconf talk][54] linked below where she talks about
+ 
+> Inheritance is for specialization, not for sharing code
+
+and [find here][55] why 
+
+> the IF keeps us from thinking OO 
+
+I also like to quite her on 
+
+> Inheritance is a knife that turns in your hand
+
+* object-oriented design
+* oo
+
+[54]: https://www.youtube.com/watch?v=LdWMcs9EEOE&feature=youtu.be&t=28470
+[55]: https://www.youtube.com/watch?v=LdWMcs9EEOE&feature=youtu.be&t=27765
+[Sandi Metz]: https://twitter.com/sandimetz
+[poodr]: http://poodr.com
+
+## `browser` field in npm's package.json
+
+> The browser field is where the module author can hint to the bundler which elements (other modules or source files) need to be replaced when packaging.
+
+Read [this file][53] for all the details.
+
+[53]: https://gist.github.com/defunctzombie/4339901
+
 ## Pharo - object-oriented programming language and a powerful environment
 
 > Pharo is a pure object-oriented programming language and a powerful environment, focused on simplicity and immediate feedback (think IDE and OS rolled into one).
@@ -890,7 +930,7 @@ Damn.
 
 ## Sandi Metz - The Design of Tests [2014-01-19]
 
-Watch the author of [poodr](http://poodr.com) describing
+Watch the author of [poodr] describing
 [how to solve the problem of mocks and real code running out of sync](https://www.youtube.com/watch?v=qT5iriwidRg)!
 (And lots of goodies about testing and stuff.)
 Watch it twice, it's worth it :)

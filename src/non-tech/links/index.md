@@ -6,6 +6,14 @@ date: 2015-01-12
 description:
 ---
 
+## Vergiftete Geschenke-Wie die EU Afrika in die Armut treibt
+
+Sehr beunruhigende Reportage ...
+
+> Wer im Senegal einkauft, findet auf den Märkten kaum einheimisches Obst und Gemüse: Die Tomaten kommen aus Italien, die Kartoffeln und Zwiebeln aus Holland. In den Geschäften ist es ähnlich: Dort steht Trockenmilch, importiert aus Europa.
+
+https://www.youtube.com/watch?v=C633o2omiAc
+
 ## Idiocracy
 
 https://www.youtube.com/watch?v=clYwX8Z43zg
