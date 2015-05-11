@@ -6,6 +6,64 @@ date: 2015-01-09
 description:
 ---
 
+## Cohesion and Coupling explained
+
+A [very good short 6min video][58] explaining how and why you should aim for high cohesion and loose coupling!  
+And [this video 57min][59] video with all the stars :) discussing this topic more in detail.
+
+[58]: https://www.youtube.com/watch?v=ZND1JAJIofA
+[59]: https://www.youtube.com/watch?v=hd0v72pD1MI
+
+* oop
+* coupling cohesion
+* classes
+* must watch
+
+## The keynote of keynotes
+
+[Alan Kay at OOPSLA 1997 - The computer revolution hasnt happened yet](https://www.youtube.com/watch?v=oKg1hTOQXoY)
+The notes for it
+http://www.cc.gatech.edu/fac/mark.guzdial/squeak/oopsla.html
+http://c2.com/cgi/wiki?TheComputerRevolutionHasntHappenedYet
+
+## Alan Kay On Messaging
+
+[These are great words][56] by Alan Kay and they are not so young and still so true. 
+And I am only close to the beginning of really understanding.
+But I have to, as usual, extract some of the key points for me.
+Make sure to read the entire message anyways, it's really very short!
+
+> I'm sorry that I long ago coined the term "objects" for this topic because it gets many people to focus on the lesser idea.
+> The big idea is "messaging" - that is what the kernal of Smalltalk/Squeak is all about (and it's something that was never quite completed in our Xerox PARC phase).
+
+This just means: make sure to understand how he means OO should be done. 
+Need a starting point? Read [poodr] and listen to [Sandi Metz]'s various talks findable online.
+
+Inherently, once scratched on the surface of what OO means and reading about [object calisthenics][57] 
+the question what is inheritance will stick out.  
+And Alan Key writes about it:
+
+> I would say that a system that allowed other metathings to be done in the ordinary course of programming (like changing what inheritance means, or what is an instance) is a bad design.
+
+Two questions are raised here:
+1) What does inheritance mean?
+2) What is an instance?
+
+/me has to go and read and answer those ...
+And work on improving what he calls to be 
+
+> Given the current low state of programming in general
+
+(which I understand as: most programming done nowadays is "bad" [that's how I interpret "low state"] - maybe I am wrong)
+
+[56]: http://c2.com/cgi/wiki?AlanKayOnMessaging
+[57]: http://williamdurand.fr/2013/06/03/object-calisthenics/
+
+* oo
+* object calisthenics
+* oop
+* inheritance
+
 ## OO (with Message passing) - explained by Sandi Metz
 
 I have been titled as a [Sandi Metz] fanboy, I am :).
@@ -26,7 +84,7 @@ and [find here][55] why
 
 > the IF keeps us from thinking OO 
 
-I also like to quite her on 
+I also like to quote her on 
 
 > Inheritance is a knife that turns in your hand
 
