@@ -1,11 +1,4 @@
 import assert from 'assert';
-
-describe('env', function() {
-  it('works', function() {
-    assert.equal(true, true);
-  });
-});
-
 import marked from 'marked';
 
 describe('markdown document parsing', function() {
