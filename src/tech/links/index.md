@@ -1,12 +1,4 @@
----
-permalink: false
-template: links.html
-title: tech links
-date: 2015-01-09
-description:
----
-
-## Cohesion and Coupling explained
+# Cohesion and Coupling explained
 
 A [very good short 6min video][58] explaining how and why you should aim for high cohesion and loose coupling!  
 And [this video 57min][59] video with all the stars :) discussing this topic more in detail.
@@ -19,14 +11,14 @@ And [this video 57min][59] video with all the stars :) discussing this topic mor
 * classes
 * must watch
 
-## The keynote of keynotes
+# The keynote of keynotes
 
 [Alan Kay at OOPSLA 1997 - The computer revolution hasnt happened yet](https://www.youtube.com/watch?v=oKg1hTOQXoY)
 The notes for it
 http://www.cc.gatech.edu/fac/mark.guzdial/squeak/oopsla.html
 http://c2.com/cgi/wiki?TheComputerRevolutionHasntHappenedYet
 
-## Alan Kay On Messaging
+# Alan Kay On Messaging
 
 [These are great words][56] by Alan Kay and they are not so young and still so true. 
 And I am only close to the beginning of really understanding.
@@ -64,7 +56,7 @@ And work on improving what he calls to be
 * oop
 * inheritance
 
-## OO (with Message passing) - explained by Sandi Metz
+# OO (with Message passing) - explained by Sandi Metz
 
 I have been titled as a [Sandi Metz] fanboy, I am :).
 I use "send to" and "plays the role" since I read her book [poodr].
@@ -96,7 +88,7 @@ I also like to quote her on
 [Sandi Metz]: https://twitter.com/sandimetz
 [poodr]: http://poodr.com
 
-## `browser` field in npm's package.json
+# `browser` field in npm's package.json
 
 > The browser field is where the module author can hint to the bundler which elements (other modules or source files) need to be replaced when packaging.
 
@@ -104,7 +96,7 @@ Read [this file][53] for all the details.
 
 [53]: https://gist.github.com/defunctzombie/4339901
 
-## Pharo - object-oriented programming language and a powerful environment
+# Pharo - object-oriented programming language and a powerful environment
 
 > Pharo is a pure object-oriented programming language and a powerful environment, focused on simplicity and immediate feedback (think IDE and OS rolled into one).
 
@@ -122,7 +114,7 @@ looks really interesting, I am adding it to my "must look at" list :).
 * refactoring
 * must look at
 
-## reapp.io
+# reapp.io
 
 The new [dojo][49]? I started with dojo about 10 years ago, or so.
 Now I see [reapp][48] which seems to be the same as dojo, lots of widgets,
@@ -136,7 +128,7 @@ Good stuff? Or not?
 * javascript framework
 * UI widgets
 
-## Typeslab
+# Typeslab
 
 With [typeslab.com][47] you can write poster like text.  
 ![for slides maybe?][46]
@@ -148,7 +140,7 @@ With [typeslab.com][47] you can write poster like text.
 * poster
 * typography
 
-## "I made it object-oriented"
+# "I made it object-oriented"
 
 Another pearl by [@KevlinHenney] in his [Functional Programming You Already Know][43] 
 is [his explaination of why we actually should leave out prefixes][45] to our functions, such as `get`
@@ -175,7 +167,7 @@ But getting a year from a `Date` object does not move/change anything.
 * must watch
 * ~~watch later~~
 
-## Decoupling explained from a different angle
+# Decoupling explained from a different angle
 
 [@KevlinHenney] is always worth watching, so there is [Functional Programming You Already Know][43] by him.
 I would like to extract this one piece where [he explains decoupling][44] in a, ask I think, great way.
@@ -189,7 +181,7 @@ He says:
 * functional
 * programming
 
-## Globally installed npm packages = evil
+# Globally installed npm packages = evil
 
 Nothing to add to [this post][42]
 
@@ -200,7 +192,7 @@ Nothing to add to [this post][42]
 * npm
 * nodejs
 
-## surge.sh - gh-pages.next?
+# surge.sh - gh-pages.next?
 
 [The site][40] states that it is this:
 
@@ -232,7 +224,7 @@ of setup. What do I miss? I guess I just expected much more :).
 * static page
 * deploy
 
-## How to Use npm as a Build Tool [2014-03-20]
+# How to Use npm as a Build Tool [2014-03-20]
 
 I am sure my partner [@Tobias] posted this link in our internal [flowdock][38] (never used it? do it now! it's Slack in better).
 [@Tobias] knows all the tools.  
@@ -265,7 +257,7 @@ Version bumping is baked into NPM.
 * tool
 * nodejs
 
-## Fish shell [2014-03-20]
+# Fish shell [2014-03-20]
 
 [Another tool I have to look at!?][36] Just found via [this article][37].
 
@@ -277,7 +269,7 @@ Version bumping is baked into NPM.
 * OS
 * tool
 
-## Microkanrens [2014-03-20]
+# Microkanrens [2014-03-20]
 
 I first heard [@bodil] talk at the 2014 craftconf in Budapest where I saw her presentation 
 where she was live coding in at least 10 languages on stage. Of course I started following
@@ -303,7 +295,7 @@ I actually came across because I was once again hunting ES6 stuff. And found
 * functional programming
 * logic programming
 
-## Unorthodocs: Abandon your DVCS and Return to Sanity [2014-03-20]
+# Unorthodocs: Abandon your DVCS and Return to Sanity [2014-03-20]
 
 [A nice read about DVCSes][32], let me mention here the two things I like best.
 1) Is about the feeling I still have when working with git :)
@@ -322,7 +314,7 @@ Excuse me, I have to go back and install mercurial now :).
 * git
 * svn
 
-## How to be a great software developer [2014-03-20]
+# How to be a great software developer [2014-03-20]
 
 [How to be a great software developer][31] is a looong read, but it's worth reading, since it contains lots of truths.
 
@@ -357,7 +349,7 @@ Just discussed the last two days what are the right tests to write, etc. and her
 * good developer
 * good code
 
-## You had one job [2014-03-17]
+# You had one job [2014-03-17]
 
 I think [this][30] is a collection of funny accidents that I have to remember, might come in 
 handy for a next slide set.
@@ -366,7 +358,7 @@ handy for a next slide set.
 
 * fun
 
-## Make your site a bit safer
+# Make your site a bit safer
 
 Any browser project should [have a look at DOMPurify][29] at least, if not apply it right away.
 This might not be what you want to apply right away, but maybe it triggers you to learn
@@ -382,7 +374,7 @@ more about this field, when security issues hit you it might be too late.
 * javascript
 * client-side
 
-## Brand assets - the logo (sets) of a company or service
+# Brand assets - the logo (sets) of a company or service
 
 For [TDDBin] I was just looking for all the icons to use on the website, icons from 
 github, trello and twitter to embed them. And I found out that the collection of those
@@ -397,7 +389,7 @@ use "brand assets".
 
 [TDDBin]: http://tddbin.com
 
-## Driven to Tests by Kevlin Henney
+# Driven to Tests by Kevlin Henney
 
 This is a great talk by [@KevlinHenney] 
 
@@ -418,7 +410,7 @@ He says about the question if tests slow you down [28]:
 * clean code
 * tdd
 
-## Sound generation in the browser [2014-02-23]
+# Sound generation in the browser [2014-02-23]
 
 It's not additional synthesis, as I would interpret the headline first, 
 but it's pretty hard core cool what is possible in the browser already.
@@ -431,7 +423,7 @@ See this the ["Quick 'n' easy game sound effects generator."][25] including [sou
 * javascript
 * browser
 
-## Deploying to gh-pages after successful test run on travis
+# Deploying to gh-pages after successful test run on travis
 
 I wanted to just push my source code to github's master branch and all the deployment after that shall be automatic. 
 Every dev-op reading this will say "yeah sure, wtf?". To make it a bit simpler, I have a pure client-side
@@ -454,11 +446,11 @@ you need to put the encrypted secret into the [.travis.yml file][24d].
 * javascript
 * travis
 
-## Bash scripting "if" explained in short
+# Bash scripting "if" explained in short
 
 http://stackoverflow.com/a/18220301/21050
 
-## Problem including mocha into a browserify build [2014-02-19]
+# Problem including mocha into a browserify build [2014-02-19]
 
 I don't get mocha to build with browserify, I always get
 
@@ -474,7 +466,7 @@ My solution for now is to use [mocha from the CDN][24], which might not work in 
 [23]: https://github.com/mochajs/mocha/issues/880
 [24]: http://cdnjs.com/libraries/mocha
 
-## Refactoring knowledge [2014-02-18]
+# Refactoring knowledge [2014-02-18]
 
 A Coding Dojo with [@XaV1uzz] doing [the Kata Mars Rover][20]
 and another one where he shows [how to refactor the bowling kata to patterns][21].
@@ -489,7 +481,7 @@ They are both in spanish!
 * watch later
 * video
 
-## Keep a github fork in sync [2014-02-17]
+# Keep a github fork in sync [2014-02-17]
 
 As often as I look for this, I need to write it down.
 For example for my fork of [github:dropping-spray], which got inspired by this [tweet][19]
@@ -520,7 +512,7 @@ As you can see above, I merged the `gh-pages` branch and not `master`!
 * remote repo
 * sync
 
-## Programming, Programmers and our craft
+# Programming, Programmers and our craft
 
 This is a [very nice interview (video)][18] with JB Rainsberger and 
 Corey Haines, two of the people I closely follow and try to learn from
@@ -536,7 +528,7 @@ a lot of personal experience. Well worth your time.
 * video
 * ~~watch later~~
 
-## Cookie libs for (node)js
+# Cookie libs for (node)js
 
 If you want to dive into cookies, here is the [RFC6265].
 I was looking around for some decent cookie libraries. There seem to be some
@@ -568,7 +560,7 @@ The biggest one, that even implements cookieJar (a way to bundle and kinda anony
 
 [RFC6265]: http://tools.ietf.org/html/rfc6265
 
-## Shell in JavaScript [2014-02-10]
+# Shell in JavaScript [2014-02-10]
 
 I don't know why [shelljs] hasn't found me earlier :(  
 This is bash the way I would feel comfortable with it, JavaScript style.  
@@ -579,7 +571,7 @@ replacement for bash but it spins quite some ideas.
 
 [shelljs]: https://github.com/arturadib/shelljs
 
-## Refactoring Rule of Three
+# Refactoring Rule of Three
 
 [is a post][18] by [Adrian Bolboaca][@adibolb]
 
@@ -592,7 +584,7 @@ replacement for bash but it spins quite some ideas.
 
 * refactoring
 
-## Git rebase, an explaination I like
+# Git rebase, an explaination I like
 
 I asked myself what branch rebase refers to. The one I want to rebase on or
 the one I want to rebase from?
@@ -617,7 +609,7 @@ history.
 * git
 * rebase
 
-## Links about naming things
+# Links about naming things
 
 While reading about naming classes, etc. I came across the obligatory
 [c2 wiki article][10] and many more  
@@ -644,7 +636,7 @@ While reading about naming classes, etc. I came across the obligatory
 * smalltalk
 * oop
 
-## Just looks like OOP ...
+# Just looks like OOP ...
 
 Linked in the [comments of this][8] I found [another great article][9], which 
 I just have to quote.
@@ -684,7 +676,7 @@ example.
 * software design
 * jscr
 
-## "Don't make objects that end with 'er'" [2014-02-04]
+# "Don't make objects that end with 'er'" [2014-02-04]
 
 I was about to write a "Handler" class. But I remembered that the "er" classes
 are not so good. And I mean, think about it. Even if it is a `RequestHandler` 
@@ -718,7 +710,7 @@ Just [read the article][8], it's quite short and compact but has some nice examp
 * oop
 * software design
 
-## Trash Your Servers and Burn Your Code: Immutable Infrastructure and Disposable Components
+# Trash Your Servers and Burn Your Code: Immutable Infrastructure and Disposable Components
 
 [a talk by Chad Fowler][7]
 
@@ -758,7 +750,7 @@ I think we agree basically :)
 
 [7]: https://www.youtube.com/watch?v=DVSNsAei0VE
 
-## Beyond SOLID: The Dependency Elimination Principle [2014-01-23]
+# Beyond SOLID: The Dependency Elimination Principle [2014-01-23]
 
 > simple pointers to create a clean, intelligible codebase that won't use a lot of dependencies
 > - Kill Primitive Obsession
@@ -779,7 +771,7 @@ unused.
 * dependencies
 * ~~read later~~
 
-## riot.js, a react-like lib [2014-01-22]
+# riot.js, a react-like lib [2014-01-22]
 
 I read it first in my personal trending twitter search, then I saw it on [hacker news][1] 
 and I pulled [the repo][2] and being intrigued by the minimal size, compared to react and polymer
@@ -795,7 +787,7 @@ My conclusion after having spent about just 1h on it I sumed up in [this tweet][
 * javascript
 * framework
 
-## Refactor to functional [2014-01-22]
+# Refactor to functional [2014-01-22]
 
 > This article helps procedural or object oriented programmers refactor the way they think to a more functional approach using practical examples in JavaScript.
 
@@ -807,7 +799,7 @@ https://github.com/perryharlock/refactor-to-functional
 * javascript
 * refactoring
 
-## Getting to know metalsmith [2014-01-21]
+# Getting to know metalsmith [2014-01-21]
 
 [I have to read this](http://www.robinthrift.com/posts/getting-to-know-metalsmith/), 
 I just want to parse the data a bit
@@ -818,7 +810,7 @@ or that I am using it in a different way than it's meant.
 * blog
 * read later
 
-## Feature Injection: three steps to success [2014-01-20]
+# Feature Injection: three steps to success [2014-01-20]
 
 > Feature Injection is a business analysis process framework that allows teams to exploit the value of the traditional business analysis techniques in projects involving frequent iterative deliveries, such as the ones implemented using agile and lean processes.
 
@@ -826,7 +818,7 @@ http://www.infoq.com/articles/feature-injection-success
 
 * read later
 
-## CSON (JSON with CoffeeScript flavor) [2014-01-20]
+# CSON (JSON with CoffeeScript flavor) [2014-01-20]
 
 > CoffeeScript-Object-Notation Parser. Same as JSON but for CoffeeScript objects.
 
@@ -835,7 +827,7 @@ https://www.npmjs.com/package/cson
 * npm
 * coffeescript
 
-## A meta project [2014-01-20]
+# A meta project [2014-01-20]
 
 In order to keep all your meta data of your project in one place
 and only create files that actually just copy those data
@@ -848,7 +840,7 @@ fill in the templates files like README, package.json, ...
 * nodejs
 * javascript
 
-## Complexity is outside the code [2014-01-20]
+# Complexity is outside the code [2014-01-20]
 
 > Dan North and Jessica Kerr make a journey through complexity. At the other side we may find simplicity, or we may find the light at the end of the tunnel is just another oncoming ESB.
 
@@ -858,7 +850,7 @@ http://www.infoq.com/presentations/complexity-simplicity-esb
 * code
 * watch later
 
-## Infodeck [2014-01-20]
+# Infodeck [2014-01-20]
 
 Martin Fowler named interactive or more online consumable slides
 infodeck, [writes about it here](http://martinfowler.com/bliki/Infodeck.html)
@@ -868,24 +860,24 @@ for it which you can feed via XML.
 
 * slides
 
-## Workflows of Refactoring [2014-01-20]
+# Workflows of Refactoring [2014-01-20]
 
 Martin Fowler lists the kinds of refactoring, the reasons 
 why we refactor code, [in his infodeck](http://martinfowler.com/articles/workflowsOfRefactoring/#2hats).
 
 * refactoring
 
-## Some coding katas [2014-01-20]
+# Some coding katas [2014-01-20]
 
 [found on stackoverflow](http://stackoverflow.com/questions/1432485/coding-katas-for-practicing-the-refactoring-of-legacy-code)
 
 * katas
 
-## webdriver API [2014-01-19]
+# webdriver API [2014-01-19]
 
 [The webdriver API is here](http://selenium.googlecode.com/git/docs/api/javascript/class_webdriver_WebDriver.html)
 
-## Myth - the simpler CSS transformer? [2014-01-19]
+# Myth - the simpler CSS transformer? [2014-01-19]
 
 [Myth](http://www.myth.io/) - 
 a simpler alternative to all the CSS transformers out there?
@@ -897,7 +889,7 @@ And it is written in JavaScript, no more ruby gem jams.
 * css
 * preprocessor
 
-## Transducers(.js) [2014-01-19]
+# Transducers(.js) [2014-01-19]
 
 > reducing function transformers are getting a name - 'transducers', and first-class support in Clojure core and core.async.
 
@@ -909,7 +901,7 @@ Dive right in [the code on github](https://github.com/cognitect-labs/transducers
 * reducers
 * functional
 
-## Testing and refactoring legacy code [2014-01-19]
+# Testing and refactoring legacy code [2014-01-19]
 
 Very useful and right-away applicable insights 
 into [refactoring legacy code](http://virtualjug.com/testing-and-refactoring-legacy-code/).
@@ -919,7 +911,7 @@ Seems the [VJUG has lot's good content](http://virtualjug.com/all-posts/).
 * refactoring
 * legacy
 
-## The introduction to Reactive Programming you've been missing [2014-01-19]
+# The introduction to Reactive Programming you've been missing [2014-01-19]
 
 > The hardest part of the learning journey is thinking in Reactive. It's a lot about letting go of old imperative and stateful habits of typical programming, and forcing your brain to work in a different paradigm.  
 > [...]  
@@ -934,7 +926,7 @@ watch out it gets you hooked :)
 * javascript
 * functional
 
-## Angular reviews [2014-01-19]
+# Angular reviews [2014-01-19]
 
 Lately they don't turn out so good, or is it my blurred vision?  
 One by James Shore [An Unconventional Review of AngularJS](http://www.letscodejavascript.com/v3/blog/2015/01/angular_review)
@@ -945,7 +937,7 @@ and another by PPK [The problem with angular](http://www.quirksmode.org/blog/arc
 * frontend
 * framework
 
-## Paxos, algorithm to solve the consensus problem [2014-01-19]
+# Paxos, algorithm to solve the consensus problem [2014-01-19]
 
 I came across paxos more often lately.
 The first time was at a meetup group "Papers we love" 
@@ -959,7 +951,7 @@ And [this is an explanation and demonstration](http://harry.me/blog/2014/12/27/n
 * algorithm
 * read later
 
-## One Hacker Way - Erik Meijer [2014-01-19]
+# One Hacker Way - Erik Meijer [2014-01-19]
 
 I really appreciate the things I learnt from Erik Meijer, but I am
 not so sure I can follow all his opinions he states
@@ -975,7 +967,7 @@ I am not sure how funny they are meant :).
 * video
 * agile
 
-## World’s first (known) bootkit for OS X can permanently backdoor Macs [2014-01-19]
+# World’s first (known) bootkit for OS X can permanently backdoor Macs [2014-01-19]
 
 My lack of knowledge and understanding and knowing it scares me most
 about [reading this article](http://arstechnica.com/security/2015/01/worlds-first-known-bootkit-for-os-x-can-permanently-backdoor-macs/),
@@ -986,7 +978,7 @@ Damn.
 * security
 * mac os
 
-## Sandi Metz - The Design of Tests [2014-01-19]
+# Sandi Metz - The Design of Tests [2014-01-19]
 
 Watch the author of [poodr] describing
 [how to solve the problem of mocks and real code running out of sync](https://www.youtube.com/watch?v=qT5iriwidRg)!
@@ -998,7 +990,7 @@ Watch it twice, it's worth it :)
 * mocks
 * ~~watch later~~
 
-## Markdown used by metalsmith (this site here) [2014-01-19]
+# Markdown used by metalsmith (this site here) [2014-01-19]
 
 As I just found in the docs metalsmith, which again uses
 [the package metalsmith-markdown](https://github.com/segmentio/metalsmith-markdown)
@@ -1011,7 +1003,7 @@ that is also supports
 
 * markdown
 
-## Mocks Aren't Stubs [2014-01-19]
+# Mocks Aren't Stubs [2014-01-19]
 
 > The term 'Mock Objects' has become a popular one to describe special case objects that mimic real objects for testing.
 
@@ -1022,7 +1014,7 @@ Read [the article from 2007](http://martinfowler.com/articles/mocksArentStubs.ht
 * testing
 * read later
 
-## Servo: Building a Parallel Browser [2014-01-18]
+# Servo: Building a Parallel Browser [2014-01-18]
 
 Servo is an experimental browser engine for modern multi-core hardware written in an experimental memory safe language called Rust.
 [Maybe the future Firefox engine?](https://www.youtube.com/watch?v=7q9vIMXSTzc)
@@ -1031,7 +1023,7 @@ Servo is an experimental browser engine for modern multi-core hardware written i
 * browser engine
 * rust
 
-## Smallest test runner [2014-01-18]
+# Smallest test runner [2014-01-18]
 
 IDEs are awesome but sometimes in my way and setting up test runners
 sometimes defeats the purpose of being fast with tests, which also
@@ -1046,7 +1038,7 @@ it assumes of course, your tests can be run via `npm test`.
 * tdd
 * testing
 
-## Speed up Mac OS X Yosemite [2014-01-17]
+# Speed up Mac OS X Yosemite [2014-01-17]
 
 I expected my new 15" Retina MacBook Pro to just blow my mind
 in terms of speed. But it didn't ... until now I am pretty
@@ -1056,7 +1048,7 @@ that promises to speed up](https://discussions.apple.com/thread/6623697), I am h
 * macos
 * speed
 
-## Markdown syntax, the spec [2014-01-15]
+# Markdown syntax, the spec [2014-01-15]
 
 I never knew which is _the_ right markdown syntax, I took the five minutes to find out
 now I know, it [seems to be this one here](http://daringfireball.net/projects/markdown/syntax).
@@ -1067,7 +1059,7 @@ to the markdown syntax.
 
 * markdown
 
-## Deploy built files easier via gh-pages branch on github [2014-01-10]
+# Deploy built files easier via gh-pages branch on github [2014-01-10]
 
 I found it always painful to only update the gh-pages branch for
 deploying to a custom domain, an easy solution is pushing a
@@ -1080,7 +1072,7 @@ found at [gsferreira.com](http://gsferreira.com/archive/2014/06/update-github-pa
 * git
 * github
 
-## Purpose of .PHONY in a Makefile [2014-01-10]
+# Purpose of .PHONY in a Makefile [2014-01-10]
 
 The [answer on stackoverflow](http://stackoverflow.com/questions/2145590/what-is-the-purpose-of-phony-in-a-makefile)
 and also a more linux focused one
