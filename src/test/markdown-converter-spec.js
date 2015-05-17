@@ -49,7 +49,41 @@ paragraph
       });
     });
   });
+  
+  describe('differently structured article', function() {
+    const md = `
+# headline
+
+paragraph 1
+
+> quote
+> quote
+> quote
+
+paragraph 2
+
+* tags
+    `;
+    
+    let parsed;
+    beforeEach(function() {
+      parsed = parse(md);
+    });
+    it('works', function() {
+      const expected = {
+        headline: 'headline',
+        tags: ['tags'],
+        content: [
+          {type: 'paragraph', text: 'paragraph 1'},
+          {type: 'blockquote', text: 'quote\nquote\nquote'},
+          {type: 'paragraph', text: 'paragraph 2'}
+        ]
+      };
+      assert.deepEqual(parsed.articles[0], expected);
+    });
+  });
 });
+
 
 function parse(md) {
   const tokens = marked.lexer(md, {gfm: true});
