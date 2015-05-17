@@ -1,12 +1,11 @@
 {
   "name": "wolfram.kriesing.de",
   "version": "1.0.0",
-  "description": "my site",
+  "description": "my site, about tech and non-tech",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "./build.sh",
-    "deploy": "git subtree push --prefix build origin gh-pages"
+    "build": "./scripts/build/build.sh"
   },
   "repository": {
     "type": "git",
@@ -19,12 +18,6 @@
   },
   "homepage": "https://github.com/wolframkriesing/wolfram.kriesing.de",
   "devDependencies": {
-    "handlebars": "^2.0.0",
-    "metalsmith": "^1.0.1",
-    "metalsmith-headings-identifier": "0.0.3",
-    "metalsmith-html-minifier": "^1.1.0",
-    "metalsmith-markdown": "^0.2.1",
-    "metalsmith-permalinks": "^0.4.0",
-    "metalsmith-templates": "^0.6.0"
+    "marked": "^0.3.3"
   }
 }
