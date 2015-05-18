@@ -22,11 +22,11 @@ blockquote * {
   margin: 0;
 }
 
-body > ul {
+ul.tags {
   padding: 0;
   color: #BBC;
 }
-body > ul > li {
+ul.tags > li {
   display: inline;
   margin-right: 1em;
   font-size: small;
@@ -34,22 +34,18 @@ body > ul > li {
 
 /* linkable */
 
-h2 a.linkable,
-h3 a.linkable {
+h2 a.linkable {
   text-decoration: none;
 }
 
-h2 a.linkable span,
-h3 a.linkable span {
+h2 a.linkable span {
   color: transparent;
 }
 
-h2:hover a.linkable span,
-h3:hover a.linkable span {
+h2:hover a.linkable span {
   color: lightgray;
 }
-h2 a.linkable span:hover,
-h3 a.linkable span:hover {
+h2 a.linkable span:hover {
   color: red;
 }
 
