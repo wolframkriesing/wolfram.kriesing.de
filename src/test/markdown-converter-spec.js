@@ -82,21 +82,44 @@ paragraph 2
       assert.deepEqual(parsed.articles[0], expected);
     });
   });
+
+  describe('multiple articles', function() {
+    const md = `
+# headline 1
+
+paragraph 1
+
+# headline 2
+
+paragraph 2
+    `;
+    
+    let parsed;
+    beforeEach(function() {
+      parsed = parse(md);
+    });
+    it('has two articles', function() {
+      assert.deepEqual(parsed.articles.length, 2);
+    });
+  });
 });
 
-
-function parse(md) {
-  const tokens = marked.lexer(md, {gfm: true});
-  const headline = tokens[0].text;
+function parseArticle(tokens) {
   return {
-    articles: [
-      {
-        headline: headline,
-        content: extractContents(tokens),
-        tags: extractTags(tokens)
-      }
-    ]
+    headline: tokens[0].text,
+    content: extractContents(tokens),
+    tags: extractTags(tokens)
   };
+}
+function parseArticles(tokenSets) {
+  return tokenSets.map(parseArticle);
+}
+function splitTokensByArticle(tokens) {
+  return [tokens];
+}
+function parse(md) {
+  const tokenSets = splitTokensByArticle(marked.lexer(md, {gfm: true}));
+  return {articles: parseArticles(tokenSets)};
 }
 
 function extractTags(tokens) {
