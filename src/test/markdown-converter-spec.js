@@ -93,7 +93,7 @@ paragraph 2
       `;
       assert.deepEqual(parse(md).articles.length, 2);
     });
-    it('has three articles', function() {
+    describe('three articles', function() {
       const md = `
 # headline 1
 paragraph 1
@@ -103,7 +103,12 @@ paragraph 2
 # headline 3
 paragraph 3
       `;
-      assert.deepEqual(parse(md).articles.length, 3);
+      it('has three articles', 
+        () => {assert.deepEqual(parse(md).articles.length, 3); });
+      it('second has two contents', 
+        () => {assert.deepEqual(parse(md).articles[1].content.length, 2); });
+      it('second article, content[1]=blockquote', 
+        () => {assert.deepEqual(parse(md).articles[1].content[1].type, 'blockquote'); });
     });
   });
 });
