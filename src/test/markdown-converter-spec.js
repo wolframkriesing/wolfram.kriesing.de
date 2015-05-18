@@ -84,22 +84,26 @@ paragraph 2
   });
 
   describe('multiple articles', function() {
-    const md = `
-# headline 1
-
-paragraph 1
-
-# headline 2
-
-paragraph 2
-    `;
-    
-    let parsed;
-    beforeEach(function() {
-      parsed = parse(md);
-    });
     it('has two articles', function() {
-      assert.deepEqual(parsed.articles.length, 2);
+      const md = `
+# headline 1
+paragraph 1
+# headline 2
+paragraph 2
+      `;
+      assert.deepEqual(parse(md).articles.length, 2);
+    });
+    it('has three articles', function() {
+      const md = `
+# headline 1
+paragraph 1
+# headline 2
+paragraph 2
+> quoted
+# headline 3
+paragraph 3
+      `;
+      assert.deepEqual(parse(md).articles.length, 3);
     });
   });
 });
@@ -114,7 +118,25 @@ function parseArticle(tokens) {
 function parseArticles(tokenSets) {
   return tokenSets.map(parseArticle);
 }
+function indexOfNextArticle(tokens) {
+  let nextAt = -1;
+  tokens.some((token, idx) => {
+    if (idx === 0) return false; // Skip the first, it's the heading.
+    const nextHeading = tokens[idx].type === 'heading';
+    if (nextHeading) {
+      nextAt = idx;
+      return true;
+    }
+    return false;
+  });
+  return nextAt;
+}
 function splitTokensByArticle(tokens) {
+  var nextAt = indexOfNextArticle(tokens);
+  const hasAnotherArticle = nextAt > -1;
+  if (hasAnotherArticle) {
+    return [tokens.slice(0, nextAt), ...splitTokensByArticle(tokens.slice(nextAt))]
+  }
   return [tokens];
 }
 function parse(md) {
