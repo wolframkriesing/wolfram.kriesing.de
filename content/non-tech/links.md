@@ -1,12 +1,43 @@
----
-permalink: false
-template: links.html
-title: non-tech links
-date: 2015-01-12
-description:
----
+# Russland verstehen
 
-## A world beyond
+[In dem Buch][10] geht es um den Kampf um die Ukraine und die Arroganz des Westens  
+von [Prof. Dr. Gabriele Krone Schmalz][9]  
+
+[9]: http://www.krone-schmalz.de/
+[10]: http://www.krone-schmalz.de/pages/catalog/russland-verstehen17.php?cat_id=1&number=0
+
+# Der Circle [2014-01-15]
+
+* book
+* must read
+
+# Ready Player One 
+http://en.wikipedia.org/wiki/Ready_Player_One
+
+* book
+* must read
+
+# ZERO, Marc Elsberg
+
+* book
+* ~~must read~~
+
+# Drohnenland, Tom Hillenbrand
+
+* book
+* ~~must read~~
+
+# Blackout
+
+* book
+* ~~must read~~
+
+# The Physics of StarTrek
+
+* book
+* must read
+
+# A world beyond
 
 Die klügsten Menschen der Welt bekommen einen Parallelwelt.
 https://www.youtube.com/user/WaltDisneyStudiosDE?v=3zSrXMQyeHM
@@ -14,7 +45,7 @@ https://www.youtube.com/user/WaltDisneyStudiosDE?v=3zSrXMQyeHM
 * movie
 * watch later
 
-## Vergiftete Geschenke-Wie die EU Afrika in die Armut treibt
+# Vergiftete Geschenke-Wie die EU Afrika in die Armut treibt
 
 Sehr beunruhigende Reportage ...
 
@@ -22,7 +53,7 @@ Sehr beunruhigende Reportage ...
 
 https://www.youtube.com/watch?v=C633o2omiAc
 
-## Idiocracy
+# Idiocracy
 
 https://www.youtube.com/watch?v=clYwX8Z43zg
 
@@ -31,21 +62,21 @@ About the society in 500 years "so incredibly dumbed down".
 * movie
 * watch later
 
-## The Prototype
+# The Prototype
 
 https://www.youtube.com/watch?v=j1p0_R8ZLB0
 
 * movie
 * watch later
 
-## Ex Machina
+# Ex Machina
 
 https://www.youtube.com/watch?v=EoQuVnKhxaM
 
 * movie
 * watch later
 
-## Washington You're Fired [2014-03-17]
+# Washington You're Fired [2014-03-17]
 
 Thanks to [@trutherbot] I stumbled over this movie, it is diving into some of the
 govermental decisions of the last decades in the US.
@@ -78,7 +109,7 @@ history is calling ...
 * patriot act
 * USA
 
-## Wir können was tun!
+# Wir können was tun!
 
 Jeder halt dort wo er kann, so [wie dieser Laden in Hamburg, der keine BILD mehr verkauft][2]. Ja warum wohl ...
 
@@ -87,7 +118,7 @@ Jeder halt dort wo er kann, so [wie dieser Laden in Hamburg, der keine BILD mehr
 * politics
 * german
 
-## CodeCombat
+# CodeCombat
 
 [Spielerisch Programmieren lernen][1]. Wow!!!
 
@@ -96,29 +127,29 @@ Jeder halt dort wo er kann, so [wie dieser Laden in Hamburg, der keine BILD mehr
 * for kids
 * learn
 
-## Blindgänger - Ein Film über Abschiebung, ungerecht aber rechtmässig?
+# Blindgänger - Ein Film über Abschiebung, ungerecht aber rechtmässig?
 
 Ein sehr beeindruckender Film, sehr berührend
 
-## Jo
+# Jo
 
 > Während des Urknalls geschah der Zeit etwas besonderes, 
 > sie begann.
 
 - Albert Einstein
 
-## Larry Page thought paid ads are a bad idea [2014-01-19]
+# Larry Page thought paid ads are a bad idea [2014-01-19]
 
 If I remember right [I heard here (german)](http://www.ardmediathek.de/tv/Reportage-Dokumentation/Die-Story-im-Ersten-Die-geheime-Macht-v/Das-Erste/Video?documentId=25070276&bcastId=799280) that 
 Larry Page himself wrote in [his thesis](http://infolab.stanford.edu/~backrub/google.html) 
 that payed search results are a bad idea. Well, he was young back than.  
 I just didn't take the time to read it thoroughly and find the spot where he states it exactly.
 
-## Why some go and some don't - to Davos [2014-01-19]
+# Why some go and some don't - to Davos [2014-01-19]
 
 Read it in the NYT article [Notable in Their Absence From Davos](http://dealbook.nytimes.com/2014/01/20/notable-in-their-absence-from-davos/).
 
-## Rechtsstaat, Folter, etc. [2014-01-15]
+# Rechtsstaat, Folter, etc. [2014-01-15]
 
 Wenn [in der USA Folter mit Sondersituationen gerechtfertigt werden](http://www.progressive.org/news/2014/12/187936/war-how-cia-justifies-torture)
 wo bleibt da der Rechtsstaat?
@@ -130,13 +161,13 @@ wo bleibt da der Rechtsstaat?
 
 [ca. bei 13min](http://kenfm.de/blog/2014/12/17/cia-folterbericht/)
 
-## Default will be: to be in prison (in the USA) [2014-01-14]
+# Default will be: to be in prison (in the USA) [2014-01-14]
 
 > The new laws make it a felony to intentionally access unauthorized information even if it's been posted to a public website. The new laws make it a felony to traffic in information like passwords, where "trafficking" includes posting a link.
 
 Read more on [Errata Security's "Obama's War on Hackers"](http://blog.erratasec.com/2015/01/obams-war-on-hackers.html#.VLZx4qcqmnQ)
 
-## UK wants to prohibit end-to-end encryption? [2014-01-13]
+# UK wants to prohibit end-to-end encryption? [2014-01-13]
 
 > The Prime Minister said today that he would stop the use of methods of communication that cannot be read by the security services even if they have a warrant.
 
@@ -145,7 +176,7 @@ and picked up by [thenextweb](http://thenextweb.com/opinion/2015/01/13/david-cam
 Why not say "end privacy", what's the difference?
 
 
-## Wie funktioniert Geld überhaupt? [2014-01-12]
+# Wie funktioniert Geld überhaupt? [2014-01-12]
 
 [4h Sendung über wie Geld funktioniert](http://vimeo.com/33908662). Sehr interresant,
 ich habe ein paar mal zurückspulen müssen :).
