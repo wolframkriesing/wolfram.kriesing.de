@@ -1,7 +1,7 @@
 import fs from 'fs';
 import {parse} from './markdown-converter.js';
 
-const fileContent = fs.readFileSync(__dirname + '/../content/tech/links.md', 'utf8');
+const fileContent = fs.readFileSync(__dirname + '/../content/tech.md', 'utf8');
 
 const articles = parse(fileContent).articles;
 //console.log(JSON.stringify(articles, null, 4));
