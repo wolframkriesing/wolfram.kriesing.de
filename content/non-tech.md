@@ -1,3 +1,40 @@
+# Implosion, Peter König
+
+An Economic Thriller about War, Environmental Destruction and Corporate Greed.
+https://www.goodreads.com/book/show/4296658-implosion
+Hier wird das Buch kurz vorgestellt in einer Sendung mit dem Autor in einer Diskussionsrunde 
+https://www.youtube.com/watch?v=yfJ-bNUmVPM&feature=youtu.be&t=1427
+
+* book
+* economic thriller
+* must read
+
+# Edward Snowden says ...
+
+> We don't want to be that kind of government where people who reveal serious wrong-doing 
+> have to seek shelter in other countries
+
+https://www.youtube.com/watch?feature=player_detailpage&v=C3JVWVqtgLQ#t=2261
+
+# Alternativen!?
+
+> Das Informationsfreiheitsportal für Bürger, Initiativen und Vereine. Fragen Sie nach Behördendokumenten, die für Sie und Ihr Engagement wichtig sind!
+> Alle Menschen haben nach dem Informationsfreiheitsgesetz das Recht, Informationen und Dokumente von Behörden zu erhalten.
+
+https://fragdenstaat.de/
+
+> G7-Gipfel: Gegen TTIP auf die Straße!
+
+https://www.campact.de/ttip/demo-muenchen/infos/
+
+https://www.campact.de/ttip/demo-muenchen/infos/
+
+# Spy on us things ...
+
+> Optic Nerve is a mass surveillance program run by the British
+
+https://en.wikipedia.org/wiki/Optic_Nerve_(GCHQ)
+
 # Russland verstehen
 
 [In dem Buch][10] geht es um den Kampf um die Ukraine und die Arroganz des Westens  
