@@ -8,12 +8,54 @@ https://www.youtube.com/watch?v=HhNIttd87xs&feature=youtu.be&t=1688
 
 > I don't want you to spend a lot of time debugging, I want you to spend a lot of 
 > time getting tests to pass.
-
 https://www.youtube.com/watch?v=HhNIttd87xs&feature=youtu.be&t=2793
+
+> Another word for testable is decoupled. That's how you make something testable, you decouple.
+https://www.youtube.com/watch?v=HhNIttd87xs&feature=youtu.be&t=2996
+
+Talking about rotten code, which is mostly argued to be done for speeding up (to market) 
+reasons. About that he says:
+> You do the thing that slows you down in order to go fast.
+> I will leave you to deal with the logical inconsistency there.
+https://www.youtube.com/watch?v=HhNIttd87xs&feature=youtu.be&t=3041
+
+Why he says that we fear to touch bad code:
+> If you break it becomes yours.
+https://www.youtube.com/watch?v=HhNIttd87xs&feature=youtu.be&t=3101
+
+He goes into detail why TDD is necessary and summarizes it all like this: 
+> We keep control over the code, by having a suite of tests that we trust.
+https://www.youtube.com/watch?v=HhNIttd87xs&feature=youtu.be&t=3303
+
+Uncle Bob about inheritance (that some frameworks force you to do, e.g. inherit from their base class):
+> And when you derive, you marry. Once you have inherited from somewhere 
+> there is no way out of that.
+> Now everything in those base classes come streaming into your classes
+> and you are stuck with them.
+> But it's a one way marriage, it's a harem. You are in the harem. The guy
+> who owns the framework [where the base class comes from] he is not married to you.
+https://www.youtube.com/watch?v=HhNIttd87xs&feature=youtu.be&t=4349
+
+> Here is the thing about frameworks, you should never trust them.
+https://www.youtube.com/watch?v=HhNIttd87xs&feature=youtu.be&t=4400
+
+His conclusion, after talking about the creation of FitNess and that it never
+actually needed a database, is
+> A good architecture allows major decisions, to be delayed until you can make them 
+> with the most information, instead of the least.
+and
+> A good architect maximizes the number of decisions, not made.
+https://www.youtube.com/watch?v=HhNIttd87xs&feature=youtu.be&t=4745
+
+> You make the UI a plugin to your use case, you make the DB a plugin to your use case,
+> all your frameworks become plugins to your use case, so that you in your application can 
+> screw them and they can't screw you.
+https://www.youtube.com/watch?v=HhNIttd87xs&feature=youtu.be&t=4925
 
 * must watch
 * video
 * architecture
+* TDD
 
 # Invent the future - Reginald Braithwaite
 
