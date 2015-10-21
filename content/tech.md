@@ -1,3 +1,20 @@
+# Uncle Bob - Architecture: The Lost Years
+
+> If our answer is `well, we had to get to market fast` that's not going to cut it
+https://www.youtube.com/watch?v=HhNIttd87xs&feature=youtu.be&t=1137
+
+> If you believe the web constrains your architecture, you have lost the war from the beginning
+https://www.youtube.com/watch?v=HhNIttd87xs&feature=youtu.be&t=1688
+
+> I don't want you to spend a lot of time debugging, I want you to spend a lot of 
+> time getting tests to pass.
+
+https://www.youtube.com/watch?v=HhNIttd87xs&feature=youtu.be&t=2793
+
+* must watch
+* video
+* architecture
+
 # Invent the future - Reginald Braithwaite
 
 > Optimizing for readability, sometimes the implementation is really terrible.
