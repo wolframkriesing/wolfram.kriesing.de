@@ -1,3 +1,46 @@
+# Bookmark collect, October 2015
+2015-10-23
+
+It's time to clean up all my open browser tabs again, not because I want to collect things
+just because my browser gets too slow and as usual (except with code - I learned that) 
+I have to collect things.
+
+After the great architecture talk by Uncle Bob, I had to look at [the FitNesse source code], 
+the 
+started off by Uncle Bob and friends. To be honest, I was looking for the perfectest code
+that is out there ... mmmh, seems reality kicked in too :) [still have to learn that this is life].
+
+[JB Rainsberger] is coming to [XP Days] ... mmmh, I think I should go there, just don't have a ticket yet.
+
+A very entertaining but loooong [Twit show (#528)] about all things web including ad blocking and so on.
+
+At JSConf.eu greenkeeper.io was released, so I looked up how I would approach keeping my deps up to date
+without it (just thinking I don't need yet another tool) - the answer is on stackoverflow, as usual.
+[How do I update each dependency in package.json to the latest version?](http://stackoverflow.com/questions/16073603/how-do-i-update-each-dependency-in-package-json-to-the-latest-version)
+
+## Rethink DB
+
+RethinkDB is a topic that I had been investing some time into, because I tried to figure out which DB to use
+for [cosmowiki]. What convinced me about: it is a DB which offers the
+best of both worlds, the NoSQL world (schema "freedom") and SQL DB's relational data. RethinkDB
+has [joins built-in][rethinkdb joins] as one of the core features. 
+Besides built-in joins it claims to have a very simple scale out mechanism and almost magic, transparent
+fail-over since version 2.1.
+Other arbitrary RethinkDB links
+* [Importing your data](http://rethinkdb.com/docs/importing/)
+* [Third-party administration tools](http://www.rethinkdb.com/docs/third-party-admin-tools/)
+* [JavaScript ReQL command reference](http://www.rethinkdb.com/api/javascript/)
+* a very simple [admin tool for rethinkdb](https://github.com/neumino/chateau) that I used
+* unfortunately there seem not many [community events](http://rethinkdb.com/community/) (listed here)
+* [Thirty-second quickstart with RethinkDB](http://rethinkdb.com/docs/quickstart/)
+
+[the FitNesse source code]: https://github.com/unclebob/fitnesse
+[JB Rainsberger]: https://twitter.com/jbrains
+[XP Days]: http://www.xpdays.de/2015/
+[Twit show (#528)]: https://twit.tv/shows/this-week-in-tech/episodes/528?autostart=false
+[rethinkdb joins]: https://rethinkdb.com/docs/table-joins/
+[cosmowiki]: https://github.com/cosmowiki/cosmowiki
+
 # Design Patterns for Sorting - a paper
 2015-10-23
 
