@@ -125,10 +125,10 @@ The original article that (I guess) led to delta-flora http://www.stickyminds.co
 
 # Bookmark collect [2015-05-20]
 
-[Tooling is Not the Problem of the Web][https://medium.com/@sebmarkbage/tooling-is-not-the-problem-of-the-web-cb0ae1fdbbc6]
-[Modern JavaScript libraries: the isomorphic way][https://blog.algolia.com/modern-javascript-libraries-the-isomorphic-way/]
+[Tooling is Not the Problem of the Web](https://medium.com/@sebmarkbage/tooling-is-not-the-problem-of-the-web-cb0ae1fdbbc6)
+[Modern JavaScript libraries: the isomorphic way](https://blog.algolia.com/modern-javascript-libraries-the-isomorphic-way/)
 
-[Common Misconceptions About Inheritance in JavaScript][https://medium.com/javascript-scene/common-misconceptions-about-inheritance-in-javascript-d5d9bab29b0a]
+[Common Misconceptions About Inheritance in JavaScript](https://medium.com/javascript-scene/common-misconceptions-about-inheritance-in-javascript-d5d9bab29b0a)
 surely a controversy article by [Eric Elliott][https://twitter.com/_ericelliott]
 
 [... where frontend developers build full stack apps, without thinking about the backend.][http://nobackend.org/]
