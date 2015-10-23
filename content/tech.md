@@ -1,4 +1,5 @@
-# Design Patterns for Sorting - a paper [2015-10-23]
+# Design Patterns for Sorting - a paper
+2015-10-23
 
 In the paper ["Design Patterns for Sorting"][design-patterns-for-sorting], 
 the internals of how to implement a decoupled version of a 
@@ -14,7 +15,8 @@ Maybe that's a good idea for a kata, that might go into the [katas repo].
 [design-patterns-for-sorting]: http://www.bandgap.cs.rice.edu/personal/adrice_swong/public/WebPages/research/SIGCSE01/dp4sortCamReady.pdf
 [katas repo]: https://github.com/tddbin/katas
 
-# Uncle Bob - Architecture: The Lost Years [2015-10-21]
+# Uncle Bob - Architecture: The Lost Years
+2015-10-21
 
 > If our answer is `well, we had to get to market fast` that's not going to cut it
 https://www.youtube.com/watch?v=HhNIttd87xs&feature=youtu.be&t=1137
