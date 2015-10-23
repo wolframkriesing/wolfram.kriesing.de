@@ -1,4 +1,18 @@
+# gr8craft - Walking Skeleton
+2015-10-23
+
+Unfortunately I missed Franziska's session at SoCraTes 2015 on this topic,
+but fortunately she [gr8craft 1] and make sure to also read through
+[her commits][gr8craft 2] backwards, of course :). Very nice and readable!
+[An article "Kickstart your next project with a Walking Skeleton"][gr8craft 3] 
+she referred to, that explains the process too.
+
+[gr8craft 1]: http://codurance.com/2015/08/26/My-first-walking-skeleton/
+[gr8craft 2]: https://github.com/codurance/gr8craft/commits/master?page=6
+[gr8craft 3]: http://blog.codeclimate.com/blog/2014/03/20/kickstart-your-next-project-with-a-walking-skeleton/
+
 # Value Objects, Business Objects or Values, Objects
+2015-10-23
 
 http://dirkriehle.com/computer-science/research/1998/ubilab-tr-1998-10-1.html
 from http://dirkriehle.com/computer-science/research/1998/ubilab-tr-1998-10-1.pdf
