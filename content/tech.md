@@ -123,49 +123,50 @@ And a long discussion with some experts in this area https://www.youtube.com/wat
 https://github.com/michaelfeathers/delta-flora
 The original article that (I guess) led to delta-flora http://www.stickyminds.com/article/getting-empirical-about-refactoring
 
-# Bookmark collect [2015-05-20]
+# Bookmark collect, May 2015
+2015-05-20
 
 [Tooling is Not the Problem of the Web](https://medium.com/@sebmarkbage/tooling-is-not-the-problem-of-the-web-cb0ae1fdbbc6)
 [Modern JavaScript libraries: the isomorphic way](https://blog.algolia.com/modern-javascript-libraries-the-isomorphic-way/)
 
 [Common Misconceptions About Inheritance in JavaScript](https://medium.com/javascript-scene/common-misconceptions-about-inheritance-in-javascript-d5d9bab29b0a)
-surely a controversy article by [Eric Elliott][https://twitter.com/_ericelliott]
+surely a controversy article by [Eric Elliott](https://twitter.com/_ericelliott)
 
-[... where frontend developers build full stack apps, without thinking about the backend.][http://nobackend.org/]
+[... where frontend developers build full stack apps, without thinking about the backend.](http://nobackend.org/)
 
-[Learn Ruby - with the neo ruby koans][http://rubykoans.com/] - I discovered it after I had started
+[Learn Ruby - with the neo ruby koans](http://rubykoans.com/) - I discovered it after I had started
 the [ES6 katas].
 
-[Amok - No Reload Live Editing for JavaScript][http://amokjs.com/]
+[Amok - No Reload Live Editing for JavaScript](http://amokjs.com/)
 
-[A test-driven approach to assessing JS skills][https://github.com/rmurphey/js-assessment] - something like [ES6 katas]?
+[A test-driven approach to assessing JS skills](https://github.com/rmurphey/js-assessment) - something like [ES6 katas]?
 
-Some slides about some [specific JS code smells][http://elijahmanor.github.io/talks/js-smells/#/].
+Some slides about some [specific JS code smells](http://elijahmanor.github.io/talks/js-smells/#/).
 
-[ESLint - The pluggable linting utility for JavaScript and JSX][http://eslint.org/] not using it yet? Get started!
+[ESLint - The pluggable linting utility for JavaScript and JSX](http://eslint.org/) not using it yet? Get started!
 
-[Sandi Metz' workshop, I am sure it will be awesome, but it's in the USA :(][http://www.sandimetz.com/pood-durham-2014]
+[Sandi Metz' workshop, I am sure it will be awesome, but it's in the USA :(](http://www.sandimetz.com/pood-durham-2014)
 
-[The Quantum Electrodynamics of Functional JavaScript][http://raganwald.com/2015/02/13/functional-quantum-electrodynamics.html]
-suggested by [David][http://twitter.com/void_0].
+[The Quantum Electrodynamics of Functional JavaScript](http://raganwald.com/2015/02/13/functional-quantum-electrodynamics.html)
+suggested by [David](http://twitter.com/void_0).
 
-["The most advanced responsive front-end framework in the world"][http://foundation.zurb.com/]
+["The most advanced responsive front-end framework in the world"](http://foundation.zurb.com/)
 
-[Currying in ES6][http://h3manth.com/new/blog/2015/currying-in-es6/]
+[Currying in ES6](http://h3manth.com/new/blog/2015/currying-in-es6/)
 
-[ECMAScript 6 — New Features: Overview & Comparison][http://es6-features.org/]
+[ECMAScript 6 — New Features: Overview & Comparison](http://es6-features.org/)
 
-[1st Darmstädter Legacy Code Retreat][http://letsdeveloper.com/2015/03/1st-darmstadter-legacy-code-retreat/]
+[1st Darmstädter Legacy Code Retreat](http://letsdeveloper.com/2015/03/1st-darmstadter-legacy-code-retreat/)
 
-[Das Reaktive Manifest][http://www.reactivemanifesto.org/de]
+[Das Reaktive Manifest](http://www.reactivemanifesto.org/de)
 
-[Destructuring and Recursion in ES-6 via raganwald.com][http://raganwald.com/2015/02/02/destructuring.html]
+[Destructuring and Recursion in ES-6 via raganwald.com](http://raganwald.com/2015/02/02/destructuring.html)
 
-[Understanding ECMAScript 6][https://leanpub.com/understandinges6/read] - a book pn leanpub.
+[Understanding ECMAScript 6](https://leanpub.com/understandinges6/read) - a book on leanpub.
 
-[ES6 Feature Proposals][http://tc39wiki.calculist.org/es6/] - totally incomplete, but some stuff is interesting to read.
+[ES6 Feature Proposals](http://tc39wiki.calculist.org/es6/) - totally incomplete, but some stuff is interesting to read.
 
-[ES6 spec][http://people.mozilla.org/~jorendorff/es6-draft.html] - not an easy read :).
+[ES6 spec](http://people.mozilla.org/~jorendorff/es6-draft.html) - not an easy read :).
 
 [ES6 katas]: http://es6katas.org
 
@@ -214,7 +215,7 @@ Make sure to read the entire message anyways, it's really very short!
 > The big idea is "messaging" - that is what the kernal of Smalltalk/Squeak is all about (and it's something that was never quite completed in our Xerox PARC phase).
 
 This just means: make sure to understand how he means OO should be done. 
-Need a starting point? Read [poodr] and listen to [Sandi Metz]'s various talks findable online.
+Need a starting point? Read [poodr] and listen to [Sandi Metz]'s various talks [findable online][57-1].
 
 Inherently, once scratched on the surface of what OO means and reading about [object calisthenics][57] 
 the question what is inheritance will stick out.  
@@ -235,6 +236,7 @@ And work on improving what he calls to be
 
 [56]: http://c2.com/cgi/wiki?AlanKayOnMessaging
 [57]: http://williamdurand.fr/2013/06/03/object-calisthenics/
+[57-1]: https://www.youtube.com/results?search_query=sandi+metz
 
 * oo
 * object calisthenics
