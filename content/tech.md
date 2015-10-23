@@ -1,3 +1,91 @@
+# Value Objects, Business Objects or Values, Objects
+
+http://dirkriehle.com/computer-science/research/1998/ubilab-tr-1998-10-1.html
+from http://dirkriehle.com/computer-science/research/1998/ubilab-tr-1998-10-1.pdf
+
+> The most prominent advantage of values over objects is that values are side-effect free. 
+
+properties of values
+
+> * Values are abstractions (universals or concepts) which model abstractions from a problem domain.
+> * Values have no lifecycle (i.e., they do not exist in time, are not created nor changed nor deleted).
+> * Values have no alterable state; representations can only be interpreted, not changed.
+> * Values are referentially transparent (i.e., there are no side-effects of using a value on other parts of the system).
+
+> From a conceptual point of view, we are still dealing with value types, be they implemented as classes or not. 
+> We call an instance of a value type a "value object". 
+> We call value types which require implementation constructs like classes
+> non-primitive value types.
+
+Properties of objects
+
+> * Objects are representations of phenomena from a problem domain.
+> * Objects have a life cycle (i.e., they exist in time, can be instantiated, changed, and deleted).
+> * Objects have identity that unambiguously denotes them (thus, they can be referenced).
+> * Objects can be shared, which is a consequence of that objects can be referenced.
+
+> While values exist independently of time in an invisible universe of values, objects do exist in time
+
+> objects exist in time, they can be distinguished from each other by their identity (property
+> O3). A value, in contrast, has no identity, because there are only occurrences of representations
+
+> Object identity is a value type of particular importance
+
+> On an implementation
+> level, the possibility to share objects is an important concept for reuse and integration, but
+> also a source of major headaches (side-effects through aliasing). No such concepts and problems exist
+> for values (property V4).
+
+> In software development, we can distinguish at least three different types of models: domain analysis,
+> system design, and implementation models.
+
+> There is no fail-safe technique to decide whether some tangible or intangible concept is of a value or
+> object type.
+In other words, there is no right or wrong wether the thing you build is a value object or a business object.
+
+> While no hard rules exist, and every decision must be done pragmatically, our experience shows that
+> value types are better reserved for lightweight abstractions
+
+When dealing with a language that has no built-in value types, like JavaScript, where you may build them
+using classes, you have to ensure that the property of a value don't get broken. Imagine the following:
+`let x = 3; y = x; y++` The initial value of `3` assigned to `x` never changes, because this primitve 
+value is provided by the language itself. When we now build this with a custom type, which can be done using
+a class, we have to ensure the immutability of it by code. It is not built in.
+So we may build something like this class 
+```
+class MonetaryAmount { 
+  constructor(value) { 
+    this.value = value; 
+  } 
+  add(amount) { 
+    return new MonetaryAmount(amount.value + this.value); 
+  }
+  equal(amount) {
+    return amount.value == this.value;
+  }
+}
+```
+And to ensure all the properties of a value object, see the complete 
+tests [here in a gist](https://gist.github.com/wolframkriesing/af7c17b5ed8f375c7b40).
+
+In the DDD world, the two things seem to be called Value Objects and Entities, as can be read
+here [What is the difference between Entities and Value Objects?][valueobjects in DDD]
+This article describes a nice example which also reflects the difference between the two:
+> Imagine that our application allows the person to track their current location. When 
+> the person is able to successfully connect to the internet and authenticate with our 
+> application a new Location object is created. This Location object has attributes for 
+> longitude and latitude. The Location object is a Value Object because we don’t care about 
+> the specific instance of the object we only care that it is a location.
+
+[valueobjects in DDD]: http://culttt.com/2014/04/30/difference-entities-value-objects/
+
+* OO
+* values
+* value object
+* objects
+* business object
+* entities
+
 # C# v6 goodies
 2015-10-23
 
