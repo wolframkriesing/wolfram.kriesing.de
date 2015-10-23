@@ -1,4 +1,5 @@
 # C# v6 goodies
+2015-10-23
 
 C# has a way better expression for what we write in JavaScript like so 
 `obj.method && obj.method()` and in C# you can do `obj?.method()`
