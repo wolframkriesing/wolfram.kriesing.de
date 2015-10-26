@@ -14,12 +14,43 @@ she referred to, that explains the process too.
 # Value Objects, Business Objects or Values, Objects
 2015-10-23
 
-http://dirkriehle.com/computer-science/research/1998/ubilab-tr-1998-10-1.html
-from http://dirkriehle.com/computer-science/research/1998/ubilab-tr-1998-10-1.pdf
+My pet project [ES6 Katas] is a playground for learning, if you look in [the repo][es6katas repo]
+you see lots of things moving around and changes made. Most of it is because I try to apply
+new learnings and try to get to a structure that really is what I consider good software.
+Lots of new bits of information I learn I try to apply there or at least play around with it
+and figure out what's a better way to do things. This often might end up in a forth and back of things
+and in not being able to decide what is right, and it looks like nothing moves forward, but that's
+just on the surface.
+
+Mostly it's when I am writing tests that things just bubble up, and that's also what I see tests being
+most valueable for: they make you question things. In this certain situation I was trying to 
+figure out if a kata as used in this project, is a value object or a business object. This lead me to
+investigate what do the thoughtleaders in this area say that a value object is. Where I stumbled over
+multiple sources. One of those great sources is the well-known [c2 wiki]. I identified the site about
+[Value Objects][valueobjects-1] and [Business Objects][valueobjects-2] 
+(also called [Reference Object][valueobjects-3]) most important.
+Also the wikipedia site on [Value Object][valueobjects-4] is a good start, but it lacks some deep insights,
+which I think are necessary in order to learn when and how to find out and apply those properly.
+
+Here is a short upfront answer, taken from [the paper][valueobjects-5] I will mostly quote later about figuring out what
+is a value or a business object.
+
+> There is no fail-safe technique to decide whether some tangible or intangible concept is of a value or
+> object type.
+
+In other words, there is no right or wrong wether the thing you build is a value object or a business object.
+
+Michael Feathers summarizes a value object calling it a pure value, which I think make it very clear too:
+> you can not change the value of 4. 4 is a value. To me, a ValueObject is something which represents a pure value.
+[quoted from here][valueobjects-6].
+
+The following are (commented) quotes with a less C++ view on things, but rather a focus on the language agnostic
+parts of [the description by Dirk Riehle][valueobjects-7] and fellows on value and business objects. The paper itself
+is available as a [PDF][valueobjects-5] too.
 
 > The most prominent advantage of values over objects is that values are side-effect free. 
 
-properties of values
+The paper summarizes the properties of values
 
 > * Values are abstractions (universals or concepts) which model abstractions from a problem domain.
 > * Values have no lifecycle (i.e., they do not exist in time, are not created nor changed nor deleted).
@@ -52,10 +83,6 @@ Properties of objects
 
 > In software development, we can distinguish at least three different types of models: domain analysis,
 > system design, and implementation models.
-
-> There is no fail-safe technique to decide whether some tangible or intangible concept is of a value or
-> object type.
-In other words, there is no right or wrong wether the thing you build is a value object or a business object.
 
 > While no hard rules exist, and every decision must be done pragmatically, our experience shows that
 > value types are better reserved for lightweight abstractions
@@ -91,7 +118,27 @@ This article describes a nice example which also reflects the difference between
 > longitude and latitude. The Location object is a Value Object because we don’t care about 
 > the specific instance of the object we only care that it is a location.
 
+## In a modern/scripting language
+
+A value object is the one whose identity is defined by its state rather than by its address. 
+How do we properly transfer this to modern/scripting languages (that don't work with memory
+allocation as described in the [paper referenced above][valueobjects-5])?
+I am thinking about:
+1) There is no real notion of an address in JavaScript (maybe let's call it a reference).
+2) If we share a value object that is immutable, does it really matter if it is the same reference? The garbage collector
+does the job of cleaning up references for us, so let it do it's job and let's reuse things. Or not?
+
 [valueobjects in DDD]: http://culttt.com/2014/04/30/difference-entities-value-objects/
+[es6katas repo]: https://github.com/tddbin/es6katas.org
+[c2 wiki]: http://c2.com/cgi/wiki
+[valueobjects-1]: http://c2.com/cgi/wiki?ValueObject
+[valueobjects-2]: http://c2.com/cgi/wiki?BusinessObject
+[valueobjects-3]: http://c2.com/cgi/wiki?ReferenceObject
+[valueobjects-4]: https://en.wikipedia.org/wiki/Value_object
+[valueobjects-5]: http://dirkriehle.com/computer-science/research/1998/ubilab-tr-1998-10-1.pdf
+[valueobjects-6]: http://c2.com/cgi/wiki?ValueObjectsCanBeMutable
+[valueobjects-7]: http://dirkriehle.com/computer-science/research/1998/ubilab-tr-1998-10-1.html
+
 
 * OO
 * values
