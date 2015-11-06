@@ -1,3 +1,49 @@
+# Comparing TDD to double-entry book keeping
+
+[Uncle Bob] nicely shows the parallels between accountants and TDD.
+One value gets put on the asset side and the other on the liability side,
+they add up to be 0. And then he questions why accountants meet their
+deadlines, even though they do things twice.
+Accountants do this for five hundred years, its a "law". We still need to 
+get there with TDD, but we are on the best way and I second that and try 
+to do my part with the [JSCodeRetreat][jscr].
+
+But [see for yourself, what Uncle Bob says about it](https://youtu.be/oar-T2KovwE?t=6343).
+
+I think I will humbly copy this analogy, it just makes so much sense.
+
+Later he gets asked
+
+> How can I do this without changing my tests all the time.
+ 
+And he answers right away.
+
+> Just design your tests better.
+
+> How do you keep from over-architecting?
+
+[Watch the answer](https://youtu.be/oar-T2KovwE?t=6914), 
+IT IS WORTH IT (and happened to me sooo often)!
+
+* tdd
+
+# Uncle Bob about Plugin Architectures
+
+I am about to probably hit some RoR ground and I am already preparing myself, 
+by listening to [Uncle Bob]
+
+> I want no import of the framework into the business rules
+> The stuff that is really valueable, the parts of the code that make or save the business money [...]
+> you keep as isolated as possible by any foreign influence.
+
+[Uncle Bob says](https://youtu.be/oar-T2KovwE?t=6198)
+
+[Uncle Bob]: https://twitter.com/unclebobmartin/
+
+* architecture
+* software quality
+* decoupling
+
 # #NoEstimates
 
 My laziness actually pulls me strongly towards [#noEstimates][noEstimates-ontwitter]. I guess it's
@@ -6,26 +52,23 @@ the argument Robert Weissgraeber gives at the beginning of [his talk][noestimate
 that we should remove all unnecessary work, all waste. 
 
 I think #noEstimates can be best described in an alternative way as [Woody Zuill][noestimates-woody] does in his article
-[Estimate a chess game][noestimates-chess]. If you just give it a couple of seconds, you know what is
+[Estimate a chess game][noestimates-chess]. Just give it a couple of seconds, and you know what is
 meant. Just ask yourself, is it possible to estimate the play of a chess game?
 
 So here are some things about this topic
-I found lately, no rated by quality, relevance or anything, I am just extracting bits
+I found lately, not rated by quality, relevance or anything, I am just extracting bits
 and pieces I am finding.
 
-Allen Holub talks about #noEstimates and right away his first sentence sums it up.
+Allen Holub talks about #noEstimates and right away [his first sentence sums it up](https://youtu.be/QVBlnCTu9Ms?t=22).
 
 > Estimation has no value at all.
 
-https://youtu.be/QVBlnCTu9Ms?t=22
-
 > Estimates are causing lot's of dysfunctions.
 
-He compares estimates to [OCD][noestimates-ocd] and basically says that doing
-estimates over and over again is irrational and we just do it in the hope of
+He compares estimates to [OCD][noestimates-ocd] and 
+[basically says](https://youtu.be/QVBlnCTu9Ms?t=889) that doing estimates over and over again 
+is irrational and we just do it in the hope of
 getting better at it, though we know they are useless and wrong.
-
-https://youtu.be/QVBlnCTu9Ms?t=889
 
 Removing estimates and control and pass the decision making and 
 balancing of resources to those who actually do the work is way more effective 
@@ -34,32 +77,24 @@ and removes lots of waste. So Allen Holub says:
 > Do the best job you can and figure out how to do that.
 
 And programmers would just not estimate, if they are not forced to do, since
-they are useless and worthless.
-
-20:26 min
-https://youtu.be/QVBlnCTu9Ms?t=1226
+they are useless and worthless. He says at [20:26 min](https://youtu.be/QVBlnCTu9Ms?t=1226).
 
 Because the developers are responsible for their own time, and the management
-figures out what are the right things to build:
+figures out what are the right things to build, [he says](https://youtu.be/QVBlnCTu9Ms?t=1312):
 
 > This changes the management structure of the entire company.
 
-https://youtu.be/QVBlnCTu9Ms?t=1312
-
 By spreading the responsibilities this way, enabling the developers to do their
-best management gets the very important role of supporting this by providing
+best, management gets the very important role of supporting this by providing
 and steadily improving the environment so developers can do what they need to do better.
-Or as he says:
+Or [as he says](https://youtu.be/QVBlnCTu9Ms?t=1406):
 
 > He [the manager] is not telling them [the developer] what to do, but he is helping them do what they need to do.
 
-https://youtu.be/QVBlnCTu9Ms?t=1406
-
 Eliminating waste, one of the core principles of lean. What is waste? 
-Everything that does not put value in your customers hands.
-> Estimation is waste.
+[Everything that does not put value in your customers hands](https://youtu.be/QVBlnCTu9Ms?t=1432).
 
-https://youtu.be/QVBlnCTu9Ms?t=1432
+> Estimation is waste.
 
 His summing up starts [here][https://youtu.be/QVBlnCTu9Ms?t=2077] and is just two minutes long, watch it!
 
@@ -76,13 +111,11 @@ But I think the content summarizes the topic.
 
 Estimating time (and cost) makes us concentrate on the wrong thing. 
 Among other things we postpone or skip the discussion about how we can 
-improve.
-https://www.youtube.com/watch?v=jKQMfe4uSD8&feature=youtu.be&t=238
+improve, [he says](https://www.youtube.com/watch?v=jKQMfe4uSD8&feature=youtu.be&t=238).
 
-> Estimates you give are turned into targets.
+> [Estimates you give are turned into targets.](https://www.youtube.com/watch?v=jKQMfe4uSD8&feature=youtu.be&t=684)
 > Meeting that target becomes the goal.
 
-https://www.youtube.com/watch?v=jKQMfe4uSD8&feature=youtu.be&t=684
 Instead of the actual value you wanted to achieve with the task you estimated.
 
 [Later he says][noestimates-2] that we should not look at the cost
@@ -91,9 +124,7 @@ which says "Customer collaboration over contract negotiation".
 
 > Don't forget about your potential
 
-And focus less on estimating it, and just ship.
-
-https://www.youtube.com/watch?v=jKQMfe4uSD8&feature=youtu.be&t=1407
+[And focus less on estimating it, and just ship.](https://www.youtube.com/watch?v=jKQMfe4uSD8&feature=youtu.be&t=1407)
 
 [noEstimates-ontwitter]: https://twitter.com/search?q=%23noestimates
 [noestimates-chess]: http://zuill.us/WoodyZuill/2011/11/07/estimation-is-easy-and-useful-estimate-a-game-of-chess/
