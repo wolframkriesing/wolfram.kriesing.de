@@ -1,3 +1,30 @@
+# The guy who stamped Mohamed Atta's ticket
+
+In this [german documentary about 9/11][ticketguy-germandoku] I saw this guy Michael Tuohey, 
+who said he met the leader of the 9/11 attackes in the morning and 
+validated his ticket at the counter before he had entered the plane.
+I was just a bit curious, so I looked for other source about him, just
+out of curiosity.
+
+I found the following, where he talks about the killing of Osama bin Laden.
+
+http://www.wcsh6.com/video/928422443001/1/Michael-Tuohey-Interview
+
+It seemed he got interviewed multiple times, and reports alike things
+
+https://www.youtube.com/watch?v=FgIe0MBMdew
+
+In this article he is quoted that he had suspected that Atta was an arab terrorist.
+And hours later he already knew that he had been right.
+
+http://www.foxnews.com/story/2005/03/07/airline-ticket-agent-recalls-atta-on-11.html
+
+
+
+* 9/11
+
+[ticketguy-germandoku]: https://www.youtube.com/watch?v=U0eIX0MUXuI
+
 # Implosion, Peter König
 
 An Economic Thriller about War, Environmental Destruction and Corporate Greed.
