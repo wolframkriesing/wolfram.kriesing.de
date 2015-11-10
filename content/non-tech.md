@@ -1,3 +1,15 @@
+# Prodigy Concert
+2015-11-10
+
+If you have never been to a concert that kicks in from the first second the loud music starts
+you have never been at a prodigy concert. If you like that music there is no way around it!
+Do it.
+
+Last night I was at the prodigy concert in Munich and it was AMAZING ... 
+Need a does? [Get it now][prodigy-1].
+
+[prodigy-1]: https://www.youtube.com/watch?v=wmin5WkOuPw&list=PL9E839C3AD87DDBDF
+
 # The guy who stamped Mohamed Atta's ticket
 
 In this [german documentary about 9/11][ticketguy-germandoku] I saw this guy Michael Tuohey, 
