@@ -1,3 +1,41 @@
+# Me discovering ruby
+
+One method three different return types
+
+```ruby
+> [1].slice(2)
+=> nil
+> [1].slice(0)
+=> 1
+> [1].slice(0,1)
+=> [1]
+```
+
+Ranges, including and excluding
+
+```ruby
+> (1..3).to_a
+=> [1, 2, 3]
+> (1...3).to_a
+=> [1, 2]
+```
+
+aha, it's not that `...` is the one including the latter number, it's actually excluding.
+I guess this has been done in order to make `..` behave as in other languages.
+
+Now combine including/excluding and slicing, and I would say ... it has potential to become hard to read :).
+
+```ruby
+> [1,2,3][1..-1]
+=> [2, 3]
+> [1,2,3][1...-1]
+=> [2]
+```
+
+
+* ruby
+* learning
+
 # promisify `fs.exists`
 
 Don't promisify `fs.exists` since this does not play by the rules of node style callback params,
