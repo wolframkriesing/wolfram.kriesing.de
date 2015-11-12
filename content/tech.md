@@ -1,3 +1,14 @@
+# Approval Testing
+
+[Emily Bache] in her talk ["Catch Dancing Ponies — Try Approval Testing"][approvaltesting]
+makes me balance my attitude where I try to prevent intergration tests,
+finding the right amount is the thing to do, I guess.
+Using this [TextTest] seems to be one way.
+
+[Emily Bache]: https://twitter.com/emilybache
+[approvaltesting]: https://www.youtube.com/watch?v=qt0ah2K2oBU
+[TextTest]: http://texttest.sourceforge.net/
+
 # Me discovering ruby
 
 One method three different return types
@@ -32,6 +43,58 @@ Now combine including/excluding and slicing, and I would say ... it has potentia
 => [2]
 ```
 
+Destructuring the ruby way, has some nice sugar.
+
+```ruby
+> one, *all = [1,2,3]
+=> [1, 2, 3]
+> one
+=> 1
+> all
+=> [2, 3]
+```
+
+interesting what the irb returns for the first line.
+
+Ruby has a built in `Hash` class, which takes a default value. I am getting the hang of it and it
+seems to make sense in the way one has to think in ruby.
+
+```
+> h = Hash.new('default')
+=> {}
+> h[:some] = 42
+=> 42
+> h
+=> {:some=>42}
+> h[:other]
+=> "default"
+```
+
+Hash default values are an interesting thing. I have to say it seems I need to learn them,
+the logic is something I don't get yet, but I am just starting :).
+
+```
+> h = Hash.new([])
+=> {}
+> h[:one].push(1)
+=> [1]
+> h[:one] << 2
+=> [1, 2]
+> h[:one] 
+=> [1, 2]
+> h[:two]
+=> [1, 2]
+> h = Hash.new('nix')
+=> {}
+> h[:no].concat('no')
+=> "nixno"
+> h[:yo]
+=> "nixno"
+```
+
+This means that the default value can be updated using something that looks like accessing 
+a value of the hash, which seems to be something to keep in mind, and not forget!!!
+Currently I think default values for hashes should not be used.
 
 * ruby
 * learning
