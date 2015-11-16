@@ -1,3 +1,10 @@
+# Chomsky books
+
+media control
+hybris
+
+* must read
+
 # Prodigy Concert
 2015-11-10
 
