@@ -1,3 +1,13 @@
+# Rails Getting Started (and hooked)
+
+> Active Record supplies a great deal of functionality to your Rails models for free
+
+sales pitch in [railsstart-tutorial] to make me buy into it #scnr
+
+* rails
+
+[railsstart-tutorial]: http://guides.rubyonrails.org/getting_started.html
+
 # "Five Active Record Features You Should Be Using"
 
 Having some background in django, 
