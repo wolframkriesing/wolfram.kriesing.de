@@ -1,3 +1,63 @@
+# Bookmark collect, December 2015
+2015-12-08
+
+Stuff regarding privacy and Edward Snowden
+* [Edward Snowden explains how to reclaim your privacy](https://theintercept.com/2015/11/12/edward-snowden-explains-how-to-reclaim-your-privacy/)
+* [Encrypt your laptop](https://theintercept.com/2015/04/27/encrypting-laptop-like-mean/)
+* [KeePassX](https://www.keepassx.org/) is an application for people with extremly high demands on secure personal data management
+* [Install signal, an encrypted messaging app](https://theintercept.com/2015/03/02/signal-iphones-encrypted-messaging-app-now-supports-text/)
+* [Open Whisper Systems](https://whispersystems.org/) I think Edward Snowden suggests to use this
+
+* [Sections and Outlines of an HTML5 Document](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Sections_and_Outlines_of_an_HTML5_document)
+* [Good Tech Lead, Bad Tech Lead](https://medium.com/swlh/good-tech-lead-bad-tech-lead-948b2b806d86#.8r3cwoook) 
+  I think I should read this well, I am kinda this, though I feel rather like a team member
+  
+My new job brought ember.js along, so I do dive into it now.  
+* [My game of life in Ember](https://github.com/wolframkriesing/game-of-life-ember) not done yet, actually planned for 
+  refactoring in a CodeRetreat
+* [github search for GoL in Ember.js](https://github.com/search?utf8=✓&q=game+of+life+ember&type=Repositories&ref=searchresults)
+* A very good [Ember video tutorial](https://www.youtube.com/watch?v=aUDxlEnuFTg)
+* [A Guide to Building Your First Ember.js App](http://www.toptal.com/javascript/a-step-by-step-guide-to-building-your-first-ember-js-app)
+* [Top Mistakes Developers Make Using Ember & Rails](https://www.airpair.com/ember.js/posts/top-mistakes-ember-rails)
+
+* [Your Password is Too Damn Short](http://blog.codinghorror.com/your-password-is-too-damn-short/)
+* [The German military trying to be our Keith Alexander](http://www.heise.de/newsticker/meldung/NSA-Ausschuss-Schweigsamer-Chef-der-BND-Aussenstelle-Gablingen-bringt-Abgeordnete-zur-Weissglut-3022689.html)
+* [A private cloud software, open-source](https://owncloud.org/)
+
+* [Power Assert in JavaScript](https://github.com/power-assert-js/power-assert) Provides descriptive assertion messages through standard assert interface.
+* [Microsoft's Code Editor](https://code.visualstudio.com/) I started to use it with Ruby
+* The matcher documentation of [hamjest](https://github.com/rluba/hamjest/wiki/Matcher-documentation)
+* [Immutable.js](https://github.com/facebook/immutable-js) collections for JavaScript
+* The ultimate [ECMAScript compatability table](https://kangax.github.io/compat-table/es6/)
+* [gitlab](https://about.gitlab.com/) a open-source version of github
+* [Working Effectively With Legacy Code](http://objectmentor.com/resources/articles/WorkingEffectivelyWithLegacyCode.pdf) a 12 page PDF
+* A talk by Alan Kay [Is it really "Complex"? Or did we just make it "Complicated"?](https://www.youtube.com/watch?v=ubaX1Smg6pY)
+
+# How Ember methods become computed properties
+
+At this point in the [EmberJS Framework Basics Part 2 video][emberprops-1] 
+the author explains how you can make (computed) properties out of 'normal' methods
+by using what the ember.js `Ember.Object` offers.
+It starts out with `friend.age()`, which returns what you expect. 
+The author wants to write this as a property (as one accesses it in ember!) 
+like this `friend.get('age')`.
+How is that done? Well, ember extends the native prototype of `Function`, so
+you can write this inside an ember object definition `age: function (){}.property()`.
+
+The uber magic starts when you make the `age` depend on the `birthday`.
+Which is done like this `age: function (){}.property('birthday')`. This is necessary
+because the computed property `age` is only calculated at object creation time, not
+on every read. In order to make it recalculate every time the `birthday` changes
+you need to observe it, as seen above.
+
+You better learn your ember!
+
+[emberprops-1]: https://youtu.be/1NjWozl8bps?t=257
+
+* emberjs
+* javascript
+* framework
+
 # Building Game of Life in Ember
 
 730.975 byte - the size of the main JS file of an empty app that ends up in the dist folder
@@ -26,6 +86,28 @@ as strings all over the place make it basically impossible to find them all and 
 correctly. Renaming is such an essential thing in continuously improving software.
 Do I really want to have it take away?
 
+I stumbled over `this` usage in mocha in my early days of using ES6 and remembered how I thought
+the new arrow functions actually changed how functions work. The real truth is, `function`
+did behave wrong until now, because it made `this` special and not simply a normal variable.
+That was when I realized that arrow functions do it right, now comes ember around the corner
+and does also rely on this relict of `this` inside a function is special #magic
+```
+// works
+Router.map(function() {
+  this.route('about');
+});
+
+// does NOT work, TypeError: _this.route is not a function
+Router.map(() => {
+  this.route('about');
+});
+```
+In short: be careful where you use the arrow functions in ember!
+
+My different view on npm and the usage of packages led me to a [first pull request][ember-mypr] 
+for the ember homepage. I just couldn't see that I was supposed to install ember globally.
+Smashed :).
+
 Don't use:
 - observers, [reasons are explained on the site itself][ember-observers] and they are perfect to 
   create hard to find cyclic dependencies, esp. given their synchronous nature, they just call for it.
@@ -34,7 +116,7 @@ Don't use:
   sets up an iterator over it, mixes too much into one thing
 - 
 
-Some interesting quotes:
+Some interesting finding:
 
 > The enumerable API follows ECMAScript specifications as much as possible.
 
@@ -53,11 +135,13 @@ The [MDN says about `some()`][ember-somemdn]:
 
 > The some() method tests whether some element in the array passes the test implemented by the provided function.
 
+
 [ember-objectmodel]: http://guides.emberjs.com/v2.2.0/object-model/
 [ember-observers]: http://guides.emberjs.com/v2.2.0/object-model/observers/#toc_observers-and-asynchrony
 [ember-deepmagic]: http://guides.emberjs.com/v2.2.0/object-model/computed-properties-and-aggregate-data/
 [ember-any]: http://guides.emberjs.com/v2.2.0/object-model/enumerables/#toc_aggregate-information-every-or-any
 [ember-somemdn]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/some
+[ember-mypr]: https://github.com/emberjs/website/pull/2425
 
 # Me discovering ruby #3
 
