@@ -1,3 +1,151 @@
+# Links
+
+* https://hub.github.com/
+
+
+# Understanding rake in order to keep on reading "Objects on Rails" 
+2016-02-07
+
+[This document][why-rake], I assume by Jim Weirich made me understand 
+where rake came from and it will hopefully also make it easier for me
+to understand getting a grip on how it ticks. This is something I need
+when working with tools.
+I found the above in [this rake tutorial][rake-tutorial].
+
+Still I have a hard time finding a concise overview of what rake offers.
+Everyone talks about a DSL but I can only find bits and pieces of what
+this DSL offers. There seems no complete overview. Now in the above mentioned
+article I found that `directory "tmp"` creates a directory of the given
+name. Never seen this before.
+
+Tasks are defined using the DSL like this `task :name ...`.
+But for a task that execute tests I can only find this piece of code
+everywhere
+```ruby
+Rake::TestTask.new do |t|
+  t.libs << "test"
+  t.test_files = FileList['test/test*.rb']
+  t.verbose = true
+end
+```
+should it not be something like this
+```ruby
+task :test => [Rake::TestTask] do |t|
+  t.libs << "test"
+  t.test_files = FileList['test/test*.rb']
+  t.verbose = true
+end
+```
+I would understand that. But the very different syntax used above 
+doesn't stick in my head and somehow yells at me "I don't want to be part of the 
+DSL, I want to be Ruby".
+
+[why-rake]: http://rake.rubyforge.org/files/doc/rational_rdoc.html
+[rake-tutorial]: http://jasonseifer.com/2010/04/06/rake-tutorial
+
+
+
+
+
+# ruby's self, @ and no prefix
+
+http://stackoverflow.com/questions/6327174/rails-self-vs
+
+# The method "method"
+
+https://www.youtube.com/watch?v=gr45bkXv-JQ
+
+"Saving methods is not a standard ruby use case"
+
+Thanks for saying it out loud ... I didn't get it until now :(
+
+# Delivery
+
+Till Nowak: Delivery
+Amazing short film
+https://www.youtube.com/watch?v=VMiZ3oFEZtw
+
+# Just for me
+
+In Ruby 
+
+> `and` and `or` are control flow operators, not boolean operators
+
+http://devblog.avdi.org/2010/08/02/using-and-and-or-in-ruby/
+
+> Another way of thinking about and is as a reversed if statement modifier:
+>    next if widget = widgets.pop
+>  becomes:
+>    widget = widgets.pop and next
+
+* ruby
+
+# Me discovering ruby #4
+2015-12-21
+
+In the ruby koans I now came across array functions. 
+One is `collect` and I thought, this is `map`, and the comment below said
+
+> 'map' is another name for the 'collect' operation
+
+Moving on, I noticed that `filter` has different names too:
+
+> 'find_all' is another name for the 'select' operation
+
+So I need to hammer new names in my head and actually also map them
+and not forget that they are aliases for each other.
+Better or not, I can't say. I got used to `filter` and `map`.
+* `map` can be: `collect`
+* `filter` is: `find_all` or `select`
+* `reduce` is: `inject(start_value)`
+
+## Iterators, yield
+
+Somehow I have to say that the way iterators are used in ruby makes them 
+seem way more simpler and intuitive to use than I know them from ES6.
+
+```
+def many_yields
+  yield(1)
+  yield(2)
+end
+
+many_yields { |item| result << item } 
+# result = [1, 2] 
+```
+
+Maybe it's because the block syntax is so not-like-a-function.
+And inside the `many_yields` method you can use `block_given?` to find out
+you had been called with a block. Quite handy.
+
+## `ensure` for a method
+
+I have just seen this constructor for the first time, in the koans
+
+```
+def find_line(file_name)
+  file = open(file_name)
+  # do stuff and return
+ensure
+  file.close if file
+end
+```
+
+Wow, this is so cool, if we don't misuse it.
+Ensure that a certain block of code is always executed at the end of a function,
+no matter which execution path was taken.
+
+# The six hats
+
+A colleague just pointed me to the article about [Six Thinking Hats][sixhats-1].
+What I really like about this is that it removes the personal part from a solution finding, discussion, etc.
+
+> The six hats system encourages performance rather than ego defense. People can contribute under any hat even though they initially support the opposite view.
+
+I think I need to dive deeper.
+
+[sixhats-1]: http://eng50411.tripod.com/psolving.htm#14
+
 # Bookmark collect, December 2015
 2015-12-08
 
