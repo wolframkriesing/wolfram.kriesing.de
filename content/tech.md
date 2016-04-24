@@ -1,4 +1,5 @@
 # Practical object oriented programming; nuts and bolts - by Allen Holub
+2016-04-24
 
 You want to learn with really good examples why all inheritance
 is bad, and why you should think twice if you want to inherit
@@ -42,6 +43,7 @@ https://vimeo.com/163860086#t=25m20s
 And he closes this part by saying
 > That's our trade-off we added a tiny bit of complexity.
 
+* oo
 
 # Closing tabs - February 2016 #2
 2016-02-16
