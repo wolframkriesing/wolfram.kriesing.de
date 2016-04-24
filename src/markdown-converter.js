@@ -20,7 +20,7 @@ const splitTokensByArticle = (tokens) => {
   const nextAt = indexOfNextArticle(tokens);
   const hasAnotherArticle = nextAt > -1;
   if (hasAnotherArticle) {
-    return [tokens.slice(0, nextAt), ...splitTokensByArticle(tokens.slice(nextAt))]
+    return [tokens.slice(0, nextAt), ...splitTokensByArticle(tokens.slice(nextAt))];
   }
   return [tokens];
 };
@@ -57,7 +57,7 @@ const parseArticle = (tokens) =>
   ({
     headline: tokens[0].text,
     content: extractContents(tokens),
-    tags: extractTags(tokens)
+    tags: extractTags(tokens),
   });
 
 const parseArticles = (tokenSets) =>
