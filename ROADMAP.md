@@ -6,3 +6,5 @@
 - show items grouped/paging kinda
 - show "read later" or "watch later" lists
 - allow "* later" to be ticked off
+- validate the md file, e.g. requires a double-new-line before the 
+  tags at the end of an article
