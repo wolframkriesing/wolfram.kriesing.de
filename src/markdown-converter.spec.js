@@ -118,7 +118,7 @@ paragraph 3
 * some tags
 * as content
     `;
-    it('has two tags', () => {
+    it('has no tags', () => {
       assert.equal(parse(md).articles[0].tags.length, 0);
     });
   });
