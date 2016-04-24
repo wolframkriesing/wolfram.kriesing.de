@@ -1,16 +1,16 @@
 import marked from 'marked';
 
-function parseArticle(tokens) {
-  return {
+const parseArticle = (tokens) => 
+  ({
     headline: tokens[0].text,
     content: extractContents(tokens),
     tags: extractTags(tokens)
-  };
-}
-function parseArticles(tokenSets) {
-  return tokenSets.map(parseArticle);
-}
-function indexOfNextArticle(tokens) {
+  });
+
+const parseArticles = (tokenSets) =>
+  tokenSets.map(parseArticle);
+
+const indexOfNextArticle = (tokens) => {
   let nextAt = -1;
   tokens.some((token, idx) => {
     if (idx === 0) return false; // Skip the first, it's the heading.
@@ -22,9 +22,10 @@ function indexOfNextArticle(tokens) {
     return false;
   });
   return nextAt;
-}
+};
+
 function splitTokensByArticle(tokens) {
-  var nextAt = indexOfNextArticle(tokens);
+  const nextAt = indexOfNextArticle(tokens);
   const hasAnotherArticle = nextAt > -1;
   if (hasAnotherArticle) {
     return [tokens.slice(0, nextAt), ...splitTokensByArticle(tokens.slice(nextAt))]
