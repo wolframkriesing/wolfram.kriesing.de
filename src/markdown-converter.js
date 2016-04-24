@@ -36,9 +36,9 @@ const isJustHeadlineAndOneList = (tokens) => {
     return false;
   }
 
-  const secondTokenIsListStart = tokens[1].type === mdToken.types.LIST_START;
+  const secondTokenIsListStart = mdToken.isListStart(tokens[1]);
   const lastToken = tokens[tokens.length - 1];
-  const lastTokenIsListEnd = lastToken.type === mdToken.types.LIST_END;
+  const lastTokenIsListEnd = mdToken.isListEnd(lastToken);
   const hasJustOneList = secondTokenIsListStart && lastTokenIsListEnd;
   if (hasJustOneList) {
     return true;

@@ -10,11 +10,14 @@ const types = {
 const tokenHasType = (token) =>
   token && 'type' in token;
 
-const isListStart = ({ type }) =>
-  type === types.LIST_START;
-
 const isTokenOfType = (token, type) =>
   tokenHasType(token) && token.type === type;
+
+const isListStart = (token) =>
+  isTokenOfType(token, types.LIST_START);
+
+const isListEnd = (token) =>
+  isTokenOfType(token, types.LIST_END);
 
 const isListItemStart = (token) =>
   isTokenOfType(token, types.LIST_ITEM_START);
@@ -34,6 +37,7 @@ const mdToken = {
   isParagraph,
   isCode,
   isListStart,
+  isListEnd,
   isListItemStart,
 };
 
