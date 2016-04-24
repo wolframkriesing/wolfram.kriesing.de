@@ -43,6 +43,7 @@ https://vimeo.com/163860086#t=25m20s
 And he closes this part by saying
 > That's our trade-off we added a tiny bit of complexity.
 
+
 * oo
 
 # Closing tabs - February 2016 #2
@@ -236,6 +237,7 @@ http://devblog.avdi.org/2010/08/02/using-and-and-or-in-ruby/
 >  becomes:
 >    widget = widgets.pop and next
 
+
 * ruby
 
 # Me discovering ruby #4
@@ -256,6 +258,9 @@ Better or not, I can't say. I got used to `filter` and `map`.
 * `map` can be: `collect`
 * `filter` is: `find_all` or `select`
 * `reduce` is: `inject(start_value)`
+
+
+* ruby
 
 ## Iterators, yield
 
@@ -338,6 +343,7 @@ My new job brought ember.js along, so I do dive into it now.
 * [gitlab](https://about.gitlab.com/) a open-source version of github
 * [Working Effectively With Legacy Code](http://objectmentor.com/resources/articles/WorkingEffectivelyWithLegacyCode.pdf) a 12 page PDF
 * A talk by Alan Kay [Is it really "Complex"? Or did we just make it "Complicated"?](https://www.youtube.com/watch?v=ubaX1Smg6pY)
+
 
 * links
 
@@ -451,6 +457,9 @@ The [MDN says about `some()`][ember-somemdn]:
 [ember-somemdn]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/some
 [ember-mypr]: https://github.com/emberjs/website/pull/2425
 
+
+* emberjs
+
 # Me discovering ruby #3
 
 This [article about closures in ruby][discover3-post] started somewhere by saying 
@@ -498,6 +507,7 @@ has some nice collection of infos too.
 [userstories-site]: http://www.mountaingoatsoftware.com/agile/user-stories
 [userstories-agilealliance]: http://guide.agilealliance.org/guide/user-stories.html
 
+
 * user story
 
 # GraphQL
@@ -512,6 +522,7 @@ and the closing and surely a tiny bit biased opinion of the article's author
 > Basically, GraphQL is the future of the internet. For the next few years anyway. REST was great, served a lot of good purposes, and will likely remain how we structure our services even with a GraphQL layer for our own sanities sake. But, IMHO GraphQL is the future.
 
 There is even [a spec][graphql-spec].
+
 
 * GraphQL
 * REST
@@ -1090,6 +1101,9 @@ This article describes a nice example which also reflects the difference between
 > longitude and latitude. The Location object is a Value Object because we don’t care about 
 > the specific instance of the object we only care that it is a location.
 
+
+* oo
+
 ## In a modern/scripting language
 
 A value object is the one whose identity is defined by its state rather than by its address. 
@@ -1234,6 +1248,9 @@ Google, no need to store my history of things I browsed in the last weeks, here 
 [greenkeeper]: http://greenkeeper.io
 [#es6kata]: https://twitter.com/search?q=%23es6kata
 
+
+* links
+
 # Rethink DB
 2015-10-23
 
@@ -1257,6 +1274,7 @@ especially for [cosmowiki].
 [rethinkdb joins]: https://rethinkdb.com/docs/table-joins/
 [cosmowiki]: https://github.com/cosmowiki/cosmowiki
 
+
 * db
 
 # Design Patterns for Sorting - a paper
@@ -1268,6 +1286,7 @@ sorting algorithm is described. It also shows that the complexity of something
 like a quicksort is not necessarily high, which should remove the fear of just
 trying out to implement it.
 Maybe that's a good idea for a kata, that might go into the [katas repo].
+
 
 * algorithm
 * sort
@@ -2362,6 +2381,7 @@ Rich Hickey [invented it](http://blog.cognitect.com/blog/2014/8/6/transducers-ar
 and they quickly [came to JavaScript, of course](http://jlongster.com/Transducers.js--A-JavaScript-Library-for-Transformation-of-Data).
 Dive right in [the code on github](https://github.com/cognitect-labs/transducers-js).
 
+
 * clojure
 * reducers
 * functional
@@ -2371,6 +2391,7 @@ Dive right in [the code on github](https://github.com/cognitect-labs/transducers
 Very useful and right-away applicable insights 
 into [refactoring legacy code](http://virtualjug.com/testing-and-refactoring-legacy-code/).
 Seems the [VJUG has lot's good content](http://virtualjug.com/all-posts/).
+
 
 * java
 * refactoring
@@ -2385,6 +2406,7 @@ Seems the [VJUG has lot's good content](http://virtualjug.com/all-posts/).
 Find [the Rx tutorial here](https://gist.github.com/staltz/868e7e9bc2a7b8c1f754),
 watch out it gets you hooked :)
 
+
 * reactive programming
 * rx
 * rxjs
@@ -2396,6 +2418,7 @@ watch out it gets you hooked :)
 Lately they don't turn out so good, or is it my blurred vision?  
 One by James Shore [An Unconventional Review of AngularJS](http://www.letscodejavascript.com/v3/blog/2015/01/angular_review)
 and another by PPK [The problem with angular](http://www.quirksmode.org/blog/archives/2015/01/the_problem_wit.html).
+
 
 * javascript 
 * angularjs
@@ -2413,6 +2436,7 @@ there was a [meetup in December about paxos](http://www.meetup.com/Papers-We-Lov
 
 And [this is an explanation and demonstration](http://harry.me/blog/2014/12/27/neat-algorithms-paxos/)
 
+
 * algorithm
 * read later
 
@@ -2429,6 +2453,7 @@ But nevertheless it's very entertaining!
 Those statements are actually the funny parts of his talk, though
 I am not sure how funny they are meant :).
 
+
 * video
 * agile
 
@@ -2440,6 +2465,7 @@ because once I read it I know there comes
 a slew of things I would have to learn too, but I still try hard ignoring it :).
 Damn.
 
+
 * security
 * mac os
 
@@ -2450,8 +2476,9 @@ Watch the author of [poodr] describing
 (And lots of goodies about testing and stuff.)
 Watch it twice, it's worth it :)
 
-* video
+
 * testing
+* video
 * mocks
 * ~~watch later~~
 
@@ -2466,6 +2493,7 @@ that is also supports
 [github flavored markdown](https://help.github.com/articles/github-flavored-markdown/).
 (I was actually just looking for how to strikeout things :)).
 
+
 * markdown
 
 # Mocks Aren't Stubs [2014-01-19]
@@ -2474,6 +2502,8 @@ that is also supports
 
 Read [the article from 2007](http://martinfowler.com/articles/mocksArentStubs.html)!!!
 
+
+* tdd
 * mock
 * stub
 * testing
@@ -2483,6 +2513,7 @@ Read [the article from 2007](http://martinfowler.com/articles/mocksArentStubs.ht
 
 Servo is an experimental browser engine for modern multi-core hardware written in an experimental memory safe language called Rust.
 [Maybe the future Firefox engine?](https://www.youtube.com/watch?v=7q9vIMXSTzc)
+
 
 * firefox
 * browser engine
@@ -2500,6 +2531,7 @@ test runner there is, it runs on the command line, like this:
 
 it assumes of course, your tests can be run via `npm test`.
 
+
 * tdd
 * testing
 
@@ -2509,6 +2541,7 @@ I expected my new 15" Retina MacBook Pro to just blow my mind
 in terms of speed. But it didn't ... until now I am pretty
 disappointed. So I finally did [some cleanup this weekend
 that promises to speed up](https://discussions.apple.com/thread/6623697), I am hoping.
+
 
 * macos
 * speed
@@ -2522,6 +2555,7 @@ At least following the link chain that lead me from
 which I [use here to create this site](https://github.com/wolframkriesing/wolfram.kriesing.de/blob/7bd5d8af1b4e3652290900b1eeb4c5dada7a6bfc/package.json#L23-L24)
 to the markdown syntax.
 
+
 * markdown
 
 # Deploy built files easier via gh-pages branch on github [2014-01-10]
@@ -2534,6 +2568,7 @@ subdirectory to gh-pages branch, like so
 
 found at [gsferreira.com](http://gsferreira.com/archive/2014/06/update-github-pages-using-a-project-subfolder/)
 
+
 * git
 * github
 
@@ -2544,5 +2579,6 @@ and also a more linux focused one
 [on linuxedevcenter.com](http://www.linuxdevcenter.com/pub/a/linux/2002/01/31/make_intro.html?page=2)
 as given as reference
 in the article.
+
 
 * makefile
