@@ -13,7 +13,7 @@ you have never been at a prodigy concert. If you like that music there is no way
 Do it.
 
 Last night I was at the prodigy concert in Munich and it was AMAZING ... 
-Need a does? [Get it now][prodigy-1].
+Need a dose? [Get it now][prodigy-1].
 
 [prodigy-1]: https://www.youtube.com/watch?v=wmin5WkOuPw&list=PL9E839C3AD87DDBDF
 
@@ -92,7 +92,7 @@ von [Prof. Dr. Gabriele Krone Schmalz][9]
 # Der Circle [2014-01-15]
 
 * book
-* must read
+* ~~must~~ read
 
 # Ready Player One 
 http://en.wikipedia.org/wiki/Ready_Player_One
@@ -157,7 +157,7 @@ https://www.youtube.com/watch?v=j1p0_R8ZLB0
 https://www.youtube.com/watch?v=EoQuVnKhxaM
 
 * movie
-* watch later
+* ~~watch later~~
 
 # Washington You're Fired [2014-03-17]
 
