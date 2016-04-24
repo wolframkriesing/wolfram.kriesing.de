@@ -43,6 +43,7 @@
     "chokidar": "^1.4.3",
     "chokidar-cli": "^1.2.0",
     "concurrently": "^2.0.0",
+    "eslint-config-crewmeister": "^2.0.0",
     "hamjest": "^2.13.0",
     "isomorphic-fetch": "^2.2.1",
     "marked": "^0.3.5",
