@@ -339,6 +339,8 @@ My new job brought ember.js along, so I do dive into it now.
 * [Working Effectively With Legacy Code](http://objectmentor.com/resources/articles/WorkingEffectivelyWithLegacyCode.pdf) a 12 page PDF
 * A talk by Alan Kay [Is it really "Complex"? Or did we just make it "Complicated"?](https://www.youtube.com/watch?v=ubaX1Smg6pY)
 
+* links
+
 # How Ember methods become computed properties
 
 At this point in the [EmberJS Framework Basics Part 2 video][emberprops-1] 
