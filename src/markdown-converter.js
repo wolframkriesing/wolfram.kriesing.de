@@ -46,18 +46,28 @@ const isJustHeadlineAndOneList = (tokens) => {
   return false;
 };
 
+const theLastList = (tokens) => {
+  const startIndexes = tokens
+    .map((token, idx) => mdToken.isListStart(token) ? idx : null)
+    .filter(item => item !== null)
+  ;
+  const lastListStartIndex = startIndexes[startIndexes.length - 1];
+  const ts = tokens.slice(lastListStartIndex);
+  return ts
+    .map((item, idx) => mdToken.isListItemStart(ts[idx - 1]) ? item.text : null)
+    .filter(text => text !== null)
+  ;
+};
+
 const extractTags = (tokens) => {
   if (isJustHeadlineAndOneList(tokens)) {
     return [];
   }
-  return tokens
-    .map((item, idx) => mdToken.isListItemStart(tokens[idx - 1]) ? item.text : null)
-    .filter(item => item !== null)
-  ;
+  return theLastList(tokens);
 };
 
-const extractContents = (tokens) => {
-  return tokens
+const extractContents = (tokens) =>
+  tokens
     .map((item, idx) =>
       mdToken.isBlockquoteStart(tokens[idx - 1]) ? { type: 'blockquote', text: item.text } :
         mdToken.isParagraph(tokens[idx]) ? { type: 'paragraph', text: item.text } :
@@ -65,7 +75,6 @@ const extractContents = (tokens) => {
     )
     .filter(item => item !== null)
     ;
-};
 
 const parseArticle = (tokens) =>
   ({

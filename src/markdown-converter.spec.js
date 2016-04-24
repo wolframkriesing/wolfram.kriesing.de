@@ -122,4 +122,24 @@ paragraph 3
       assert.equal(parse(md).articles[0].tags.length, 0);
     });
   });
+
+  describe('article with diverse content, use the last tags list only', () => {
+    const md = `
+# Bookmark collect, December 2015
+2015-12-08
+
+Stuff regarding privacy and Edward Snowden
+* [Edward Snowden explains how to reclaim your privacy](https://theintercept.com/2015/11/12/edward-snowden-explains-how-to-reclaim-your-privacy/)
+* [My game of life in Ember](https://github.com/wolframkriesing/game-of-life-ember) not done yet, actually planned for 
+
+* [Sections and Outlines of an HTML5 Document](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Sections_and_Outlines_of_an_HTML5_document)
+
+
+* links
+* tags
+    `;
+    it('has one tag', () => {
+      assert.deepEqual(parse(md).articles[0].tags, ['links', 'tags']);
+    });
+  });
 });
