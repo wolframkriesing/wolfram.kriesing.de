@@ -13,18 +13,20 @@ const tokenHasType = (token) =>
 const isListStart = ({ type }) =>
   type === types.LIST_START;
 
+const isTokenOfType = (token, type) =>
+  tokenHasType(token) && token.type === type;
+
 const isListItemStart = (token) =>
-  tokenHasType(token) && token.type === types.LIST_ITEM_START;
+  isTokenOfType(token, types.LIST_ITEM_START);
 
 const isBlockquoteStart = (token) =>
-  tokenHasType(token) && token.type === types.BLOCK_QUOTE_START;
+  isTokenOfType(token, types.BLOCK_QUOTE_START);
 
 const isParagraph = token =>
-  tokenHasType(token) && token.type === types.PARAGRAPH;
+  isTokenOfType(token, types.PARAGRAPH);
 
 const isCode = token =>
-  tokenHasType(token) && token.type === types.CODE;
-
+  isTokenOfType(token, types.CODE);
 
 const mdToken = {
   types,
