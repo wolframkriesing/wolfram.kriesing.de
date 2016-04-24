@@ -1,4 +1,10 @@
 import marked from 'marked';
+// import mdToken from './markdown-token';
+
+const LIST_START_TOKEN_TYPE = 'list_start';
+
+const isListStartToken = ({ type }) =>
+  type === LIST_START_TOKEN_TYPE;
 
 const indexOfNextArticle = (tokens) => {
   let nextAt = -1;
@@ -25,7 +31,30 @@ const splitTokensByArticle = (tokens) => {
   return [tokens];
 };
 
+const isJustHeadlineAndOneList = (tokens) => {
+  const listCount = tokens
+    .filter(isListStartToken)
+    .length
+  ;
+  const hasOnlyOneList = listCount === 1;
+  if (!hasOnlyOneList) {
+    return false;
+  }
+
+  const secondTokenIsListStart = tokens[1].type === 'list_start';
+  const lastToken = tokens[tokens.length - 1];
+  const lastTokenIsListEnd = lastToken.type === 'list_end';
+  const hasJustOneList = secondTokenIsListStart && lastTokenIsListEnd;
+  if (hasJustOneList) {
+    return true;
+  }
+  return false;
+};
+
 const extractTags = (tokens) => {
+  if (isJustHeadlineAndOneList(tokens)) {
+    return [];
+  }
   const hasTokenType = (token) =>
     token && 'type' in token;
   const isListItemStart = (token) =>
@@ -33,7 +62,7 @@ const extractTags = (tokens) => {
   return tokens
     .map((item, idx) => isListItemStart(tokens[idx - 1]) ? item.text : null)
     .filter(item => item !== null)
-    ;
+  ;
 };
 
 const extractContents = (tokens) => {

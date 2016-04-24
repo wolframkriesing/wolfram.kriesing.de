@@ -111,4 +111,15 @@ paragraph 3
         () => {assert.deepEqual(parse(md).articles[1].content[1].type, 'blockquote'); });
     });
   });
+
+  describe('article only with a list', () => {
+    const md = `
+# headline 1
+* some tags
+* as content
+    `;
+    it('has two tags', () => {
+      assert.equal(parse(md).articles[0].tags.length, 0);
+    });
+  });
 });
