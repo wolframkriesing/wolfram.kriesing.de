@@ -1,10 +1,5 @@
 import marked from 'marked';
-// import mdToken from './markdown-token';
-
-const LIST_START_TOKEN_TYPE = 'list_start';
-
-const isListStartToken = ({ type }) =>
-  type === LIST_START_TOKEN_TYPE;
+import mdToken from './markdown-token';
 
 const indexOfNextArticle = (tokens) => {
   let nextAt = -1;
@@ -33,7 +28,7 @@ const splitTokensByArticle = (tokens) => {
 
 const isJustHeadlineAndOneList = (tokens) => {
   const listCount = tokens
-    .filter(isListStartToken)
+    .filter(mdToken.isListStart)
     .length
   ;
   const hasOnlyOneList = listCount === 1;
@@ -41,9 +36,9 @@ const isJustHeadlineAndOneList = (tokens) => {
     return false;
   }
 
-  const secondTokenIsListStart = tokens[1].type === 'list_start';
+  const secondTokenIsListStart = tokens[1].type === mdToken.types.LIST_START;
   const lastToken = tokens[tokens.length - 1];
-  const lastTokenIsListEnd = lastToken.type === 'list_end';
+  const lastTokenIsListEnd = lastToken.type === mdToken.types.LIST_END;
   const hasJustOneList = secondTokenIsListStart && lastTokenIsListEnd;
   if (hasJustOneList) {
     return true;
@@ -55,28 +50,18 @@ const extractTags = (tokens) => {
   if (isJustHeadlineAndOneList(tokens)) {
     return [];
   }
-  const hasTokenType = (token) =>
-    token && 'type' in token;
-  const isListItemStart = (token) =>
-    hasTokenType(token) && token.type === 'list_item_start';
   return tokens
-    .map((item, idx) => isListItemStart(tokens[idx - 1]) ? item.text : null)
+    .map((item, idx) => mdToken.isListItemStart(tokens[idx - 1]) ? item.text : null)
     .filter(item => item !== null)
   ;
 };
 
 const extractContents = (tokens) => {
-  const hasTokenType = (token) =>
-    token && 'type' in token;
-  const isBlockquoteStart = (token) =>
-    hasTokenType(token) && token.type === 'blockquote_start';
-  const isParagraph = token => hasTokenType(token) && token.type === 'paragraph';
-  const isCode = token => hasTokenType(token) && token.type === 'code';
   return tokens
     .map((item, idx) =>
-      isBlockquoteStart(tokens[idx - 1]) ? { type: 'blockquote', text: item.text } :
-        isParagraph(tokens[idx]) ? { type: 'paragraph', text: item.text } :
-          isCode(tokens[idx]) ? { type: 'code', text: item.text } : null
+      mdToken.isBlockquoteStart(tokens[idx - 1]) ? { type: 'blockquote', text: item.text } :
+        mdToken.isParagraph(tokens[idx]) ? { type: 'paragraph', text: item.text } :
+          mdToken.isCode(tokens[idx]) ? { type: 'code', text: item.text } : null
     )
     .filter(item => item !== null)
     ;
